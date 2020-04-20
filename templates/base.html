@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>{% block title %}{% endblock %} servane briand </title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/output.css') }}">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+  {% block styles %}{% endblock %}
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Lato&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{% block description %}{% endblock %}">
+</head>
+<body class="bg-gray-100 w-5/6 mx-auto">
+    <div id="page-container">
+        <div id="content-wrap"
+        <header class="w-full pt-8 pb-4">
+            <!-- navbar -->
+            <div class="w-full flex pb-4">
+                <h1 class="flex-0 text-3xl"> Servane Briand </h1>
+                <nav class="flex-1 w-full my-auto">
+                    <ul class="flex justify-end text-blue-500 my-auto ml-auto">
+                        <li><a class="my-auto mx-2 hover:underline {{ 'active' if active_page == 'subscribe' else '' }}" href="/projects"> expositions </a></li>
+                        <li><a class="my-auto mx-2 hover:underline {{ 'active' if active_page == 'about' else '' }}" href="/expos"> projects </a></li>
+                        <li><a class="my-auto mx-2 hover:underline" href="/about"> about </a><li>
+                    </ul>
+                </nav>
+            </div>
+            <hr class="border-black border-2 w-full"/>
+        </header>
+        <!-- content -->
+        <section class="z-0 content flex-1 pt-10 pb-20">
+          {% block content %}{% endblock %}
+        </section>
+        </div>
+      <footer class="h-24 w-full bg-gray-900 text-white border-t-1 border-green pin-b">
+        <hr />
+      </footer>
+    </div>
+      {% block scripts %}{% endblock %}
+ </body>
+</html>
