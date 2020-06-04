@@ -1,33 +1,446 @@
-@tailwind base;
+/*---------------------*\
+| 1. FONTS 				|
+\*-------------------- */
 
-@tailwind components;
+/* Charter Font */
+@font-face {
+  font-family: "Charter";
+  src: url("../font/charter_regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
 
-@tailwind utilities;
+/* Fira Sans Font*/
+@font-face {
+  font-family: "FiraSans";
+  src: url("../font/FiraSans-ExtraLight.ttf") format("ttf");
+  font-weight: 200;
+  font-style: normal;
+}
 
-#page-container {
+@font-face {
+  font-family: "FiraSans";
+  src: url("../font/FiraSans-Light.ttf") format("ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* IBMPlex Font */
+@font-face {
+  font-family: "IBMPlexMono";
+  src: url("../font/IBMPlexMono-Light.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src: url("../font/IBMPlexMono-Regular.otf") format("otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src: url("../font/IBMPlexMono-ThinItalic.otf") format("otf");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src: url("../font/IBMPlexMono-ThinItalic.otf") format("otf");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("../font/IBMPlexSans-Light.otf") format("otf");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("../font/IBMPlexSerif-Light.otf") format("otf");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("../font/IBMPlexSerif-Thin.otf") format("otf");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("../font/IBMPlexSerif-ThinItalic.otf") format("otf");
+  font-weight: 200;
+  font-style: italic;
+}
+
+/*------------------------*\
+| 1. GLOBAL STYLES/RESETS  |
+\*------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --ff-base: "IBMPlexMono", serif;
+  --ff-second: "IBMPlexSans", sans-serif;
+  --ff-regular: 400;
+  --ff-light: 300; 
+  --bg-clr: #f8fafc;
+  --sc-clr: #736c66;
+  --th-clr: steelblue;
+  --ft-clr: #A44F23;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+body {
+  background-color: var(--bg-clr);
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.container {
+	width: min(1200px, 100%);
+	padding: 3rem;
+	margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.nav {
+	flex-grow: 1;
+}
+.nav__links {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	width: max(40%, 26rem);
+	margin: auto;
+}
+
+.logo__link >img {
+	width: 100%;
+}
+
+.links__link {
+	font-family: var(--ff-base);
+	text-transform: uppercase;
+	color: slategray;
+}
+
+.links__link:hover {
+	color: steelblue;
+}
+
+.active {
+	color: #A44F23;
+}
+
+.event-list__event {
+	display: flex;
+	flex-wrap: wrap;
+	font-family: var(--ff-base);
+	position: relative;
+	margin-bottom: 4rem;
+}
+
+.event-list__event::after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	background-color: var(--sc-clr);
+	left: 0;
+	opacity: .5;
+	right: 0;
+	bottom: -2rem;
+}
+
+.event__image-wrapper{
+	position: relative;
+	display: inline-block;
+	width: min(100%, 400px);
+}
+
+.event__image {
+	width: 100%;
+}
+
+.event__text-wrapper {
+	width: min(100%, 400px);
+}
+
+.event__title {
+	font-weight: var(--ff-regular);
+	color: #333;
+	color: var(--ft-clr);
+	opacity: .7;
+	line-height: 1.2rem;
+	margin-top: 0;
+}
+
+.event__date {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.event__location {
+	font-size: .8em;
+	margin-bottom: 2em;
+	color: var(--sc-clr)
+}
+
+.event__description {
+	line-height: 1.6rem;
+	margin-bottom: 2rem;
+	font-size: .9em;
+	font-family: var(--ff-second);
+	font-weight: var(--ff-light);
+	color: #333;
+}
+
+.event__button {
+	background-color: var(--ft-clr);
+	opacity: .8;
+	padding: 1em 2em;
+	border: none;
+	color: white;
+	border-radius: 8px;
+}
+
+.event__button:hover {
+	opacity: .4;
+}
+
+
+.event-image__date {
+	position: absolute;
+	top: 1rem;
+	bottom: 75%;
+	left: 75%;
+	right: 1rem;
+	background-color: #333;
+	opacity: .9;
+	display: flex;
+	flex-direction: column;
+	padding: .1em;
+}
+
+.event-date__month-start {
+	text-transform: uppercase;
+	color: white;
+	opacity: .9;
+	font-size: .8rem;
+	margin: auto;
+	margin-bottom: 0;
+	letter-spacing: 2px;
+}
+
+.event-date__day-start {
+	font-size: 1rem;
+	margin: auto;
+	color: white;
+}
+
+.event-date__date-end {
+	color: white;
+	font-size: .7rem;
+	margin: auto;
+	text-transform: uppercase;
+}
+
+.event__active-indicator {
+	position: absolute;
+	right:50%;
+	top: 0;
+	left: 50%;
+	width: 1px;
+	bottom: 0;
+	transform: rotate(45deg);
+	background-color: white;
+	visibility: hidden;
+}
+
+/*---------------------*\
+| 3. IMAGE GRID 		|
+\*-------------------- */
+
+.image-grid {
+  --auto-grid-min-size: 14rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+  grid-gap: 1rem;
+}
+
+.image {
+	width: 100%;
+	opacity: 1;
+	transition: opacity 500ms ease-in-out;
+}
+
+.image:hover {
+	opacity: .5;
+}
+
+/*---------------------*\
+| 3. BOOK ANIMATION 	|
+\*-------------------- */
+
+.book__container {
+  z-index: 1;
+  perspective: 3000px;
+  --transition-dur: .5s;
+}
+
+.book__container .book {
   position: relative;
-  min-height: 100vh;
+  display: block;
+  width: 400px;
+  height: 550px;
+  margin: 5% auto;
+  border-radius: 2px 4px 4px 2px;
+  background: linear-gradient(45deg, #dad5dc 0%, #f2ebf4 100%);
+  font-family: "FiraSans", sans-serif;
+  box-shadow: 13px 13px 8px 0px rgba(151, 146, 153, 0.6);
+  font-weight: 400;
+  color: #2b2b2b;
+  transform-style: preserve-3d;
+  transition: transform var(--transition-dur),
+  			  box-shadow var(--transition-dur);
+  cursor: pointer;
 }
 
-#content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
+.book__container .book:hover {
+  transform: rotate3d(0, 1, 0, 35deg);
+  box-shadow: 13px 8px 6px rgba(151,146,153,0.6);
 }
 
-footer {
+.book__container .book > div,
+.book__container .front > div {
+  display: block;
   position: absolute;
+}
+
+.book__container .front {
+  transform-style: preserve-3d;
+  transform-origin: 0% 50%;
+  transition: transform var(--transition-dur);
+  transform: translate3d(0, 0, 20px);
+  z-index: 10;
+}
+
+.book__container .front > div {
+  width: 400px;
+  height: 550px;
+}
+
+.book__container .left-side {
+  width: 40px;
+  left: -20px;
+  height: 550px;
+  background-color: rgba(232, 229, 234);
+  transform: rotate3d(0, 1, 0, -90deg);
+}
+
+.cover .front-title{
+  position: relative;
+  top: 65px;
+  left: -95px;
+  transform: rotate(-90deg);
+}
+
+.author {
+  font-family: "FiraSans", sans-serif;
+  font-weight: 400;
+  position: absolute;
+  top: 475px;
+  left: 50px;
+  opacity: 0.8;
+}
+
+.author:hover {
+	color: steelblue;
+}
+
+.book__container .front > div {
+  border-radius: 0 3px 3px 0;
+  box-shadow: inset 4px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book__container .front:after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: -1px;
+  width: 1px;
+}
+
+.book__container .cover:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 10px;
   bottom: 0;
-  width: 100%;
-  height: 2.5rem;            /* Footer height */
+  width: 3px;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 0 3px rgba(255, 255, 255, 0.1);
 }
 
-#snail-path {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: dash 19s linear forwards;
+.book__container h2 {
+  width: 500px;
+  height: 40px;
+  color: #2b2b2b;
+  font-size: 15px;
+  line-height: 40px;
+  padding-right: 10px;
+  text-align: right;
+  transform-origin: 0 0;
+  transform: rotate(90deg) translateY(-40px);
 }
 
-@keyframes dash {
-  to {
-    stroke-dashoffset: 0;
-  }
+.cover {
+	background: linear-gradient(45deg, #dad5dc 0%, #f2ebf4 100%); 
+}
+
+.left-side h2 span {
+  font-weight: 400;
+  font-size: 13px;
+  padding-right: 20px;
+}
+
+.left-side h2 span:hover {
+	color: steelblue;
+}
+
+.front-title:hover {
+	color: steelblue;
 }

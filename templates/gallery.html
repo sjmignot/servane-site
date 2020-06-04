@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
-{% set active_page = "work" %}
+{% set active_page = "gallery" %}
 {% block description %} Servane Briand Work {% endblock %}
 
 {% block content %}
 <div class="image-grid">
-{% for work in works %}
-<img alt="image of {{work.title}}" class="image" src="{{work.main_image}}" />
+{% for project in projects%}
+<img alt="image of {{project.title}}" class="image" src="{{project.main_image}}" />
 {% endfor %}
 </div>
 {% endblock %}

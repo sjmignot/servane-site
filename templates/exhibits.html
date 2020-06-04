@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% set active_page = "exhibits" %}
+{% block description %} Servane Briand Exhibits {% endblock %}
+
+{% block content %}
+<div class="event-list">
+{% for exhibit in exhibits %}
+    <div class="event-list__event">
+		<div class="event__image-wrapper">
+			<img alt="image of {{exhibit.title}}" class="event__image" src="{{exhibit.event_image}}" />
+			<div class="event-image__date">
+				<p class="event-date__month-start"> {{dates[loop.index0][0].strftime("%b")}}</p>
+				<p class="event-date__day-start"> {{dates[loop.index0][0].strftime("%d")}}</p>
+				<p class="event-date__date-end"> to {{dates[loop.index0][1].strftime("%b %d")}}</p>
+				<div class="event__active-indicator" data-timestamp="{{dates[loop.index0][2]}}"></div>
+			</div>
+		</div>
+		<div class="event__text-wrapper">
+			<h2 class="event__title"> {{exhibit.title}} </h2>
+			<p class="event__date"> {{exhibit.date}} </p>
+			<p class="event__location"> {{exhibit.location}} </p>
+			<p class="event__description"> {{ exhibit.description}} </p>
+			<button class='event__button'> Event Page </button>
+		</div>
+	</div>
+{% endfor %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+  <script src="{{ url_for('static', filename='js/exhibitDate.js') }}"></script>
+{% endblock %}
