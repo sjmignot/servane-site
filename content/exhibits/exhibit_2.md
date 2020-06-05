@@ -1,6 +1,6 @@
 title: COLLECT 2020 
-start_date: "2-27-2020-15:00"
-end_date: "3-2-2020-16:00"
+start_date: "2-27-2020"
+end_date: "3-2-2020"
 event_link: #
 event_image: https://picsum.photos/300?y
 location: Madeinbritaly, at Collect, Somerset House, London, UK 

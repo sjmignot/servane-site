@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% set active_page = "profile" %}
+{% block description %} Servane Briand Profile {% endblock %}
+
+{% block content %}
+<div class="profile-banner">
+	<img class="profile-banner__image" src="{{ url_for('static', filename='img/profile_banner.jpg') }}"> </img>
+</div>
+{% endblock %}
+
+{% block scripts %}
+  <script src="{{ url_for('static', filename='js/exhibitDate.js') }}"></script>
+{% endblock %}

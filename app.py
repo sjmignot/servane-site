@@ -2,6 +2,7 @@ from flask import Flask, render_template, redirect, url_for, render_template_str
 from flask_flatpages import FlatPages
 from datetime import datetime
 from pytz import timezone
+from itertools import groupby
 
 DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
@@ -35,12 +36,19 @@ def index():
 
 @app.route("/gallery/")
 def work():
+    def date_group_key(date_project_t):
+        if date_project_t[0].year <= 2016:
+            return 'archive'
+        else:
+            return date_project_t[0].year
+
     projects = get_projects()
     projects.sort(key=lambda x: x['created'])
 
     dates = [project['created'] for project in projects]
-    print(dates)
-    return render_template('gallery.html', projects=projects, dates=dates)
+    date_projects = [(str(k), list(g))for k, g in groupby(zip(dates, projects), key=date_group_key)]
+    print(date_projects)
+    return render_template('gallery.html', date_projects=date_projects)
 
 
 @app.route("/gallery/{project}")
@@ -53,17 +61,27 @@ def contact():
     return render_template('contact.html')
 
 
+@app.route("/profile/")
+def profile():
+    return render_template('profile.html')
+
+
 @app.route("/exhibits/")
 def expos():
-    DATE_FORMAT = "%m-%d-%Y-%H:%M"
+    DATE_FORMAT = "%m-%d-%Y"
     exhibits = get_expos()
     print(exhibits)
     dates = [(datetime.strptime(exhibit['start_date'], DATE_FORMAT),
               datetime.strptime(exhibit['end_date'], DATE_FORMAT),
               datetime.strptime(exhibit['end_date'], DATE_FORMAT).astimezone(
                   timezone('US/Pacific')).timestamp()) for exhibit in exhibits]
-    sorted_exhibits, sorted_dates = zip(*sorted(zip(exhibits, dates), key=lambda event_date_t: event_date_t[1][0], reverse=True))
-    return render_template('exhibits.html', exhibits=sorted_exhibits, dates=sorted_dates)
+    sorted_exhibits, sorted_dates = zip(
+        *sorted(zip(exhibits, dates),
+                key=lambda event_date_t: event_date_t[1][0],
+                reverse=True))
+    return render_template('exhibits.html',
+                           exhibits=sorted_exhibits,
+                           dates=sorted_dates)
 
 
 # Main Function, Runs at http://0.0.0.0:8000

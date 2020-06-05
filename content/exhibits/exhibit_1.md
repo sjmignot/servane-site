@@ -1,6 +1,6 @@
 title: Waterscape 
-start_date: "03-12-2020-13:30"
-end_date: "3-18-2020-14:30"
+start_date: "03-12-2020"
+end_date: "3-18-2020"
 event_link: #
 event_image: https://picsum.photos/300?z
 location: Circus Space, Inverness, Scotland, UK

@@ -1,6 +1,6 @@
 title: Other Exhibit 
-start_date: "07-12-2020-13:30"
-end_date: "10-18-2020-14:30"
+start_date: "07-12-2020"
+end_date: "10-18-2020"
 event_link: #
 event_image: https://picsum.photos/300?x
 location: Circus Space, Inverness, Scotland, UK
