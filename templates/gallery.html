@@ -3,7 +3,7 @@
 {% block description %} Servane Briand Work {% endblock %}
 
 {% block content %}
-<div class="date-selector__wrapper">
+<div id="date-selector" class="date-selector__wrapper">
 	<ul class="date-select__list">
 	{% for date, _ in date_projects %}
 		{% if loop.index0 == 0 %}
@@ -19,12 +19,18 @@
 <div class="image-grid">
 {% for date, projects in date_projects|reverse %}
 	<div class="image-grid__date-divider">
-		<h3 class="date-divider__date" id={{date}}>{{date}}</h3>
+		<a href="#top"><h3 class="date-divider__date" id={{date}}>{{date}}</h3></a>
 	</div>
 	{% for project in projects %}
 		<img alt="image of {{project[1].title}}" class="image" src="{{project[1].main_image}}" />
 	{% endfor %}
 {% endfor %}
+	<div class="image-grid__date-divider">
+		<a href="#top"><h3 class="date-divider__date" id="prints">prints</h3></a>
+	</div>
+	{% for print in prints %}
+		<img alt="image of {{print.title}}" class="image" src="{{print.main_image}}" />
+	{% endfor %}
 </div>
 {% endblock %}
 

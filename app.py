@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for, render_template_string
+from flask import Flask, render_template, redirect, url_for
 from flask_flatpages import FlatPages
 from datetime import datetime
 from pytz import timezone
@@ -12,8 +12,8 @@ MARKDOWN_EXTENSIONS = ['codehilite', 'footnotes', 'fenced_code']
 # FLATPAGES DIRS
 FLATPAGES_ROOT = 'content'
 PROJECT_DIR = 'projects'
-OTHER_DIR = 'other'
 EXPO_DIR = 'exhibits'
+PRINTS_DIR = 'prints'
 
 app = Flask(__name__)
 app.config.from_object(__name__)
@@ -26,6 +26,10 @@ def get_projects():
 
 def get_expos():
     return [p for p in flatpages if p.path.startswith(EXPO_DIR)]
+
+
+def get_prints():
+    return [p for p in flatpages if p.path.startswith(PRINTS_DIR)]
 
 
 # URL Routing - Home Page
@@ -43,12 +47,19 @@ def work():
             return date_project_t[0].year
 
     projects = get_projects()
+    prints = get_prints()
+
+    prints.sort(key=lambda x: x['created'])
     projects.sort(key=lambda x: x['created'])
 
-    dates = [project['created'] for project in projects]
-    date_projects = [(str(k), list(g))for k, g in groupby(zip(dates, projects), key=date_group_key)]
+    dp = [project['created'] for project in projects]
+    date_projects = [
+        (str(k), list(g))
+        for k, g in groupby(zip(dp, projects), key=date_group_key)
+    ]
+
     print(date_projects)
-    return render_template('gallery.html', date_projects=date_projects)
+    return render_template('gallery.html', date_projects=date_projects, prints=prints)
 
 
 @app.route("/gallery/{project}")
