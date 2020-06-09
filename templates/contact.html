@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% set active_page = "contact" %}
+{% block description %} Contact Servane Briand {% endblock %}
+
+{% block content %}
+<div class="profile-banner">
+	<img class="profile-banner__image" 
+	 srcset="{{ url_for('static', filename='img/profile_banner_mobile.jpg') }} 480w,
+				 {{ url_for('static', filename='img/profile_banner.jpg') }} 800w"
+     sizes="(max-width: 650px) 300px,
+            800px"
+	 src="{{url_for('static', filename='imag/profile_banner.jpg')}}"
+     alt="Image of the Artist">
+	</img>
+</div>
+{% endblock %}
+
+{% block scripts %}
+  <script src="{{ url_for('static', filename='js/exhibitDate.js') }}"></script>
+{% endblock %}

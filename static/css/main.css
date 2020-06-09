@@ -108,6 +108,7 @@
 
 html {
   scroll-behavior: smooth;
+
 }
 
 h1,
@@ -135,7 +136,7 @@ a {
 header {
   display: flex;
   align-items: center;
-  margin-bottom: 4rem;
+  margin-bottom: var(--screen-padding);
   flex-wrap: wrap;
 }
 
@@ -404,6 +405,99 @@ header {
   opacity: 0.5;
 }
 
+/* Profile Page */
+.profile-wrapper {
+	background: #675D48;
+}
+
+.first-section {
+	position: relative;
+	background-image: url('/static/img/wip.jpg');
+	width: 100%;
+	height: 0;
+	background-repeat: no-repeat;
+	background-size: contain;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 81%);
+	padding-bottom: 127.9%;
+	background-color: #675D48;
+}
+
+.first-section__text {
+	background-color: var(--bg-clr);
+	width: 50%;
+	font-family: var(--ff-second);
+	font-weight: 200;
+	color: #675D48;
+	line-height: 1.6;
+	padding: 1rem;
+}
+
+.first-section__text--left {
+	justify-content: left;
+	float: left;
+	margin-top: 8rem;
+	border-radius: 0 .5rem .5rem 0;
+}
+
+.first-section__text--right {
+	margin-top: 40rem;
+	float: right;
+	margin-right: -1px;
+	text-align: right;
+	border-radius: .5rem 0 0 .5rem;
+}
+
+.second-section {
+	height: 100vh;
+	width: 100%;
+	display: flex; 
+	flex-direction: column;
+	justify-content: center;
+}
+
+.second-section__text {
+	margin: 2em 15%;
+	font-weight: 200;
+	color: var(--bg-clr);
+	font-family: var(--ff-second);
+	line-height: 1.6;
+}
+
+.second-section__img {
+	width: 70%;
+	margin: auto;
+	z-index: 10;
+}
+
+.second-section__divider {
+	width: 100%;
+	margin-top: -12rem;
+	z-index:0;
+	margin-bottom: 6rem;
+}
+
+.third-section {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 5rem;
+	margin: 0 6rem;
+}
+
+.btn {
+  height: 80px;
+  line-height: 40px;  
+  width: 80px;  
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border-width: 4px;
+}
+
+
 /* Index Page */
 
 .book__container {
@@ -540,11 +634,6 @@ header {
 .profile-banner__image {
 	width: 100%;
 	height: 100%;
-	z-index:-1;
 	display: block;
 	position: relative;
-}
-
-.profile-banner {
-	box-shadow: inset 0 0px 3px 0 rgba(0, 0, 0, .8);
 }
