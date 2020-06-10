@@ -76,7 +76,7 @@
   --ff-light: 300;
   --bg-clr: #f8fafc;
   --sc-clr: rgba(0,0,0,.55);
-  --link-clr: steelblue;
+  --link-clr: #3b75a6;
   --accent-clr: #a44f23;
   --bg-clr-2: rgb(103,93,72, .8);
 
@@ -392,6 +392,7 @@ header {
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 	padding-bottom: 127.9%;
 	background-color: #675D48;
+	box-shadow: inset 0 0 6px 0 var(--sc-clr);
 }
 
 .first-section__text {
@@ -427,6 +428,7 @@ header {
 	display: flex; 
 	flex-direction: column;
 	justify-content: center;
+
 }
 
 .second-section__text {
@@ -562,7 +564,7 @@ header {
   left: 10px;
   bottom: 0;
   width: 3px;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.2);
   box-shadow: 1px 0 3px rgba(255, 255, 255, 0.1);
 }
 
@@ -622,15 +624,17 @@ form {
 
 label {
 	font-family: var(--ff-base);
-	text-transform: uppercase;
+	text-transform: lowercase;
 	display: flex;
 	flex-direction: column;
 	margin: 0 1rem 1rem 1rem;
 	letter-spacing: 1.4px;
+	color: var(--sc-clr);
 }
 
 input, textarea {
-	border: 1.5px solid black; 
+	color: var(--sc-clr);
+	border: 1.5px solid var(--sc-clr); 
 	margin-top: .5rem;
 	padding: .3rem;
 	font-family: var(--ff-base);
@@ -651,10 +655,11 @@ input, textarea {
 
 .contact-page__image {
 	width: 100%;
+	opacity: .8
 }
 
 .form__submit-button {
-	color: black;
+	color: var(--sc-clr);
 	background-color: white;
 	text-transform: lowercase;
 	text-align: center;
@@ -669,8 +674,7 @@ input, textarea {
 
 .form__submit-button:hover {
 	color: white;
-	background-color: black;
-
+	background-color: var(--sc-clr);
 }
 
 /*---------------------*\

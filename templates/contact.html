@@ -3,15 +3,36 @@
 {% block description %} Contact Servane Briand {% endblock %}
 
 {% block content %}
-<div class="profile-banner">
-	<img class="profile-banner__image" 
-	 srcset="{{ url_for('static', filename='img/profile_banner_mobile.jpg') }} 480w,
-				 {{ url_for('static', filename='img/profile_banner.jpg') }} 800w"
-     sizes="(max-width: 650px) 300px,
-            800px"
-	 src="{{url_for('static', filename='imag/profile_banner.jpg')}}"
-     alt="Image of the Artist">
-	</img>
+<div class="page-wrapper">
+<form
+  action="https://formspree.io/xvowrged"
+  method="POST"
+>
+  <div class="form__name-wrapper">
+	  <label class="form-label__name form-label__name--first">
+		FIRST NAME 
+		<input class="form-input__name form-input__name--last " type="text" name="first-name">
+	  </label>
+
+	  <label class="form-label__name form-label__name--last">
+		LAST NAME
+		<input class="form-input__name form-input__name--last" type="text" name="last-name">
+	  </label>
+  </div>
+  <label class="form-label__email">
+    EMAIL
+    <input class="form-input__email" type="email" name="_replyto" required>
+  </label>
+  <label class="form-label__message">
+    MESSAGE 
+    <textarea class="form-input__message" rows="8" name="message" required minlength="40"> </textarea>
+  </label>
+  <input type="text" name="_gotcha" style="display:none" />
+  <input class="form__submit-button"type="submit" value="submit">
+</form>
+<div class="contact-page__image-wrapper">
+	<img class="contact-page__image" src="{{url_for('static', filename='img/medusa.png')}}"></img>
+</div>
 </div>
 {% endblock %}
 
