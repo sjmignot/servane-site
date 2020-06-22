@@ -7,7 +7,7 @@
 {% for exhibit in exhibits %}
     <div class="event-list__event">
 		<div class="event__image-wrapper">
-			<img alt="image of {{exhibit.title}}" class="event__image" src="{{exhibit.event_image}}" />
+			<img alt="image of {{exhibit.title}}" class="event__image" src="{{ url_for('static', filename='img/exhibits/'+exhibit.event_image) }}" />
 			<div class="event-image__date">
 				<p class="event-date__month-start"> {{dates[loop.index0][0].strftime("%b")}}</p>
 				<p class="event-date__day-start"> {{dates[loop.index0][0].strftime("%d")}}</p>
@@ -16,10 +16,12 @@
 			</div>
 		</div>
 		<div class="event__text-wrapper">
-			<h2 class="event__title"> {{exhibit.title}} </h2>
-			<p class="event__date"> {{exhibit.date}} </p>
+			<a class="event__link" href="{{ exhibit.event_link }}" target="_blank"> <h2 class="event__title"> {{exhibit.title}} </h2> </a>
+			<p class="event__date"> {{exhibit.start_date}} - {{exhibit.end_date}} </p>
 			<p class="event__location"> {{exhibit.location}} </p>
-			<p class="event__description"> {{ exhibit.description}} </p>
+			<div class="event__description"> 
+				{{ exhibit.html|safe }} 
+			</div>
 		</div>
 	</div>
 {% endfor %}
