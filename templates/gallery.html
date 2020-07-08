@@ -22,14 +22,22 @@
 		<a href="#top"><h3 class="date-divider__date" id={{date}}>{{date}}</h3></a>
 	</div>
 	{% for project in projects %}
-		<img alt="image of {{project[1].title}}" class="image" src="{{project[1].main_image}}" />
+	<div class="proj__wrapper">
+	<a class="project-link" href="{{ url_for('work_project', name=project[1].path.replace('projects/','')) }}">
+	  <img alt="image of {{project[1].title}}" class="image" src="{{url_for('static', filename='img/projects/'+project[1].image_directory+'/thumbnail.jpg')}}" />
+	</a>
+	<p class="proj__title">{{project[1].title+'. '+project[1].created|string}}</p>
+	</div>
 	{% endfor %}
 {% endfor %}
 	<div class="image-grid__date-divider">
 		<a href="#top"><h3 class="date-divider__date" id="prints">prints</h3></a>
 	</div>
 	{% for print in prints %}
-		<img alt="image of {{print.title}}" class="image" src="{{print.main_image}}" />
+	<div class="print__wrapper">
+	<a href="{{ url_for('work_print', name=print.path.replace('prints/', '')) }}"> <img alt="image of {{print.title}}" class="image" src="{{url_for('static', filename='img/prints/'+print.image_directory+'/thumbnail.jpg')}}" /></a>
+	<p class="print__title">{{print.title+'. '+ print.created|string}}</p>
+	</div>
 	{% endfor %}
 </div>
 {% endblock %}

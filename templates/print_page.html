@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block description %} Servane Briand Exhibits {% endblock %}
+
+{% block content %}
+<h1 class="print__title">{{prin.title}}</h1>
+<img class="print__image" src="{{url_for('static', filename='img/prints/'+prin.image_directory+'/'+prin.image_directory+'.jpg')}}" alt="main image for {{prin.title}}" />
+<div class="print__details"> 
+	<h2 class="print-detail__header"> Materials </h2>
+	<p class="print-detail"> {{prin.medium}}</p>
+	<h2 class="print-detail__header"> Dimensions </h2>
+	<p class="print-detail"> {{prin.dimensions}} </p>
+	<h2 class="print-detail__header"> Edition </h2>
+	<p class="print-detail"> {{prin.edition}} </p>
+</div>
+
+<div class="print__description" />
+		{{prin.html|safe}}
+</div>
+
+{% endblock %}

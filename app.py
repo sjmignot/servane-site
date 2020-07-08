@@ -3,6 +3,8 @@ from flask_flatpages import FlatPages
 from datetime import datetime
 from pytz import timezone
 from itertools import groupby
+import os
+from PIL import Image
 
 DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
@@ -12,6 +14,7 @@ MARKDOWN_EXTENSIONS = ['codehilite', 'footnotes', 'fenced_code']
 # FLATPAGES DIRS
 FLATPAGES_ROOT = 'content'
 PROJECT_DIR = 'projects'
+PRINT_DIR = 'prints'
 EXPO_DIR = 'exhibits'
 PRINTS_DIR = 'prints'
 
@@ -41,30 +44,55 @@ def index():
 @app.route("/gallery/")
 def work():
     def date_group_key(date_project_t):
-        if date_project_t[0].year <= 2016:
+        if int(date_project_t[0]) <= 2016:
             return 'archive'
         else:
-            return date_project_t[0].year
+            return int(date_project_t[0])
 
     projects = get_projects()
     prints = get_prints()
 
     prints.sort(key=lambda x: x['created'])
-    projects.sort(key=lambda x: x['created'])
+    projects.sort(key=lambda x: (x['created'], x['title']))
 
     dp = [project['created'] for project in projects]
-    date_projects = [
-        (str(k), list(g))
-        for k, g in groupby(zip(dp, projects), key=date_group_key)
+    date_projects = [(str(k), list(g))
+                     for k, g in groupby(zip(dp, projects), key=date_group_key)
+                     ]
+
+    return render_template('gallery.html',
+                           date_projects=date_projects,
+                           prints=prints)
+
+
+@app.route("/gallery/<name>")
+def work_project(name):
+    path = f'{PROJECT_DIR}/{name}'
+    proj = flatpages.get_or_404(path)
+    images = [
+        os.path.join('static/img/projects/', proj['image_directory'], i)
+        for i in os.listdir(
+            os.path.join('static/img/projects/', proj['image_directory']))
+        if i != 'thumbnail.jpg'
     ]
 
-    print(date_projects)
-    return render_template('gallery.html', date_projects=date_projects, prints=prints)
+    width_images = list(
+        zip(
+            map(lambda dim: (dim[0] / dim[1]) < 1,
+                [Image.open(i).size for i in images]), images))
+
+    print(sorted(width_images))
+
+    return render_template('project_page.html',
+                           project=proj,
+                           width_images=width_images)
 
 
-@app.route("/gallery/{project}")
-def work_project():
-    pass
+@app.route("/gallery/print/<name>")
+def work_print(name):
+    path = f'{PRINT_DIR}/{name}'
+    prin = flatpages.get_or_404(path)
+    return render_template('print_page.html', prin=prin)
 
 
 @app.route("/contact/")

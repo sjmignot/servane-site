@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block description %} Servane Briand Exhibits {% endblock %}
+
+{% block content %}
+<h1 class="project__title">{{project.title}}</h1>
+<img class="project__image project__image--main" src="/{{width_images[0][1]}}" alt="main image for {{project.title}}" />
+<div class="project__details"> 
+	<h2 class="project-detail__header"> Materials </h2>
+	<p class="project-detail"> {{project.materials}}</p>
+	<h2 class="project-detail__header"> Dimensions </h2>
+	<p class="project-detail"> {{project.dimensions}} </p>
+	<h2 class="project-detail__header"> Location </h2>
+	<p class="project-detail"> {{project.location}} </p>
+	<h2 class="project-detail__header"> Collaborators </h2>
+	<ul class="project-detail project-detail--list">
+	{% for collab in project.collaborators %}
+	<li class="project-detail__list-item">
+		{% if collab.website %}
+		<a class="project-detail__collab-name" href="{{collab.website}}" target="_blank">{{collab.name}}</a>: {{collab.contribution}}
+	    {% else %}
+		<span class="project-detail__collab-name">{{collab.name}}</span>: {{collab.contribution}}
+		{% endif%}
+	</li>
+	{% endfor %}
+	</ul>
+</div>
+<div class="project__description" />
+		{{project.html|safe}}
+</div>
+
+<section id="images">
+{% for is_tall, image in width_images[1:]%}
+	<img class="project__image" src=/{{image}} alt="image {{loopindex}} for project.title"/>
+{% endfor %}
+</section>
+
+{% endblock %}
