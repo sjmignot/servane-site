@@ -632,112 +632,74 @@ a.project-detail__collab-name {
 }
 
 /* Index Page */
-
-.book__container {
-  z-index: 1;
-  perspective: 3000px;
-  --transition-dur: 0.5s;
-  --book-height: 550px;
-  --book-width: 400px;
+.banner__wrapper {
+	width: 100%;
 }
 
-.book__container .book {
-  position: relative;
-  display: block;
-  width: min(calc(100% - 2*var(--screen-padding)), var(--book-width));
-  height: min(calc(100vw * 1.5), var(--book-height));
-  margin: 5% auto;
-  border-radius: 2px 4px 4px 2px;
-  background: linear-gradient(45deg, #dad5dc 0%, #f2ebf4 100%);
-  font-family: var(--ff-base);
-  box-shadow: 13px 13px 8px 0px rgba(151, 146, 153, 0.6);
-  font-weight: 400;
-  color: #2b2b2b;
-  transform-style: preserve-3d;
-  transition: transform var(--transition-dur), box-shadow var(--transition-dur);
-  cursor: pointer;
+.banner__grid {
+	display: grid;
+	grid-template-columns: repeat(11, 1fr);
+	grid-gap: 0;
+	width: min(100%, calc(72px * 11));
+	margin: 3rem auto 3rem;
+	box-sizing: content-box;
+	border: solid 2px var(--sc-clr);
 }
 
-.book__container .book:hover {
-  transform: rotate3d(0, 1, 0, 35deg);
-  box-shadow: 13px 8px 6px rgba(151, 146, 153, 0.6);
+.banner__cell {
+	width:100%;
+	position: relative;
 }
 
-.book__container .book > div,
-.book__container .front > div {
-  display: block;
-  position: absolute;
+.banner-work {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	vertical-align: top;
+	z-index:-1;
 }
 
-.book__container .front {
-  transform-style: preserve-3d;
-  transform-origin: 0% 50%;
-  transition: transform var(--transition-dur);
-  transform: translate3d(0, 0, 20px);
-  z-index: 10;
-
+.banner {
+	vertical-align: top;
+	animation: fade;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
 }
 
-
-.book__container .left-side {
-  width: 40px;
-  left: -20px;
-  height: var(--book-height);
-  background-image: url('/static/img/spine.png');
-  background-size: cover;
-  transform: rotate3d(0, 1, 0, -90deg);
+@keyframes fade {
+  0%   { 
+	 filter: blur(0);
+     opacity:1;
+  }
+  100% { 
+  	opacity:0; 
+	filter: blur(1rem)
+  }
 }
 
-.cover {
-  border-radius: 0 3px 3px 0;
-  box-shadow: inset 4px 0 10px rgba(0, 0, 0, 0.1);
-  background-image: url('/static/img/bookcover.png');
-  background-size: cover;
-  width: var(--book-width);
-  height: var(--book-height);
+.quote__wrapper {
+	font-family: var(--ff-base);
+	display: flex;
+	justify-content: space-between;
 }
 
-.cover:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 10px;
-  bottom: 0;
-  width: 2px;
-  background: rgba(0, 0, 0, 0.5);
-  box-shadow: 1px 0 3px rgba(255, 255, 255, 0.1);
+.quote-text {
+	padding: auto 2rem auto 0;
+	font-size: large;
+	width: max(60%, 500px);
+	font-style: italic;
+	line-height: 1.6;
+	margin: auto;
 }
 
-.front:after {
-  content: "";
-  position: absolute;
-  top: 1px;
-  bottom: 1px;
-  left: -1px;
-  width: 1px;
-}
-
-
-.book__container h2 {
-  width: 500px;
-  height: 40px;
-  color: #2b2b2b;
-  font-size: 15px;
-  line-height: 40px;
-  padding-right: 10px;
-  text-align: right;
-  transform-origin: 0 0;
-  transform: rotate(90deg) translateY(-40px);
-}
-
-.left-side h2 span {
-  font-weight: 400;
-  font-size: 13px;
-  padding-right: 20px;
-}
-
-.left-side h2 span:hover {
-  color: var(--link-clr);
+.quote-author {
+	position:relative;
+	text-transform: uppercase;
+	font-size: xx-large;
+	opacity: .6;
+	margin: auto 0;
+	
 }
 
 /* Contact Page */
