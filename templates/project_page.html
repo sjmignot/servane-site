@@ -3,14 +3,29 @@
 
 {% block content %}
 <h1 class="project__title">{{project.title}}</h1>
-<img class="project__image project__image--main" src="/{{width_images[0][1]}}" alt="main image for {{project.title}}" />
+<img class="project__image project__image--main" src="/{{images[0]}}" alt="main image for {{project.title}}" />
 <div class="project__details"> 
-	<h2 class="project-detail__header"> Materials </h2>
-	<p class="project-detail"> {{project.materials}}</p>
+	{%if project.materials %}
+		<h2 class="project-detail__header"> Materials </h2>
+		<p class="project-detail"> {{project.materials}}</p>
+	{% endif %}
+
+	{%if project.dimensions %}
 	<h2 class="project-detail__header"> Dimensions </h2>
 	<p class="project-detail"> {{project.dimensions}} </p>
+	{% endif %}
+
+	{% if project.location %}
 	<h2 class="project-detail__header"> Location </h2>
 	<p class="project-detail"> {{project.location}} </p>
+	{% endif %} 
+
+	{% if project.edition%}
+	<h2 class="project-detail__header"> Edition </h2>
+	<p class="project-detail"> {{project.edition}} </p>
+	{% endif %}
+
+	{% if project.collaborators %}
 	<h2 class="project-detail__header"> Collaborators </h2>
 	<ul class="project-detail project-detail--list">
 	{% for collab in project.collaborators %}
@@ -23,13 +38,14 @@
 	</li>
 	{% endfor %}
 	</ul>
+	{% endif %}
 </div>
 <div class="project__description" />
 		{{project.html|safe}}
 </div>
 
 <section id="images">
-{% for is_tall, image in width_images[1:]%}
+{% for image in images[1:] %}
 	<img class="project__image" src=/{{image}} alt="image {{loopindex}} for project.title"/>
 {% endfor %}
 </section>

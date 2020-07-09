@@ -76,16 +76,9 @@ def work_project(name):
         if i != 'thumbnail.jpg'
     ]
 
-    width_images = list(
-        zip(
-            map(lambda dim: (dim[0] / dim[1]) < 1,
-                [Image.open(i).size for i in images]), images))
-
-    print(sorted(width_images))
-
     return render_template('project_page.html',
                            project=proj,
-                           width_images=width_images)
+                           images=images[::-1])
 
 
 @app.route("/gallery/print/<name>")

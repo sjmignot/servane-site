@@ -1,5 +1,8 @@
 title: Lempris (leather)
 created: 2017
 image_directory: 'leather-lempris'
+dimensions: 23 x 12 x 12 cm
+materials: grey goatskin, laser etching, gold tooling details, archival digital printing and stencil on kozo, decorative paper by the artist, beeswax. 
+editions: EV 7
 
-Lempris the Rat Prince is a collaborative piece by ...
+Inspired by Mignot’s moving poem of a Nietzschean rat prince fighting a last intense battle, Lempris is also a tribute to the remarkable work of origami artist Eric Joisel who invented the rat figure.

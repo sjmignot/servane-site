@@ -3,7 +3,7 @@ created: 2012
 image_directory: losing_north
 dimensions: 43.2 x 38.1 cm
 medium: Screenprint
-edition: EV of 21
+edition: EV of 25
 
 Losing North is by Nancy Huston's book of the same title. 
 

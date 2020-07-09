@@ -5,3 +5,4 @@ dimensions: 38 x 33 cm
 medium: Solar etching, chine collé, encaustic on Awagami kozo 
 edition: EV of 15
 
+

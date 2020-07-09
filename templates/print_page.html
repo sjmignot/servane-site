@@ -2,19 +2,49 @@
 {% block description %} Servane Briand Exhibits {% endblock %}
 
 {% block content %}
-<h1 class="print__title">{{prin.title}}</h1>
-<img class="print__image" src="{{url_for('static', filename='img/prints/'+prin.image_directory+'/'+prin.image_directory+'.jpg')}}" alt="main image for {{prin.title}}" />
+<h1 class="print-page__title">{{prin.title}}</h1>
+<img class="print__image print__image--main" src="{{url_for('static', filename='img/prints/'+prin.image_directory+'/'+prin.image_directory+'.jpg')}}" alt="main image for {{prin.title}}" />
 <div class="print__details"> 
-	<h2 class="print-detail__header"> Materials </h2>
-	<p class="print-detail"> {{prin.medium}}</p>
+	{%if prin.medium%}
+		<h2 class="print-detail__header"> Medium</h2>
+		<p class="print-detail"> {{prin.medium}}</p>
+	{% endif %}
+	{%if prin.materials %}
+		<h2 class="print-detail__header"> Materials </h2>
+		<p class="print-detail"> {{prin.materials}}</p>
+	{% endif %}
+
+	{%if prin.dimensions %}
 	<h2 class="print-detail__header"> Dimensions </h2>
 	<p class="print-detail"> {{prin.dimensions}} </p>
+	{% endif %}
+
+	{% if prin.location %}
+	<h2 class="print-detail__header"> Location </h2>
+	<p class="print-detail"> {{prin.location}} </p>
+	{% endif %}
+
+	{% if prin.edition%}
 	<h2 class="print-detail__header"> Edition </h2>
 	<p class="print-detail"> {{prin.edition}} </p>
-</div>
+	{% endif %}
 
+	{% if prin.collaborators %}
+	<h2 class="print-detail__header"> Collaborators </h2>
+	<ul class="print-detail print-detail--list">
+	{% for collab in prin.collaborators %}
+	<li class="print-detail__list-item">
+		{% if collab.website %}
+		<a class="print-detail__collab-name" href="{{collab.website}}" target="_blank">{{collab.name}}</a>: {{collab.contribution}}
+	    {% else %}
+		<span class="print-detail__collab-name">{{collab.name}}</span>: {{collab.contribution}}
+		{% endif%}
+	</li>
+	{% endfor %}
+	</ul>
+	{% endif %}
+</div>
 <div class="print__description" />
 		{{prin.html|safe}}
 </div>
-
 {% endblock %}
