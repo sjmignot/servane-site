@@ -1,6 +1,9 @@
 title: πr2 
 created: 2015
 image_directory: 'pi-r-2'
+binding: Briand's rivet binding
+materials: book cloth, leather, decorative paper, neodymium magnets, beeswax and pigment on recycled prints
+edition: EV of 3
 
 πr2 started as a collaborative project between a group of book artists (Bay Area Book Artists) and a group of printmakers (Printers At The Tannery). PAAT had a pile of reject prints that BABA shared randomly among participants. Rule is you had to make two books, one for PAAT and one for yourself. 
 

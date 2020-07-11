@@ -5,9 +5,9 @@
 <h1 class="print-page__title">{{prin.title}}</h1>
 <img class="print__image print__image--main" src="{{url_for('static', filename='img/prints/'+prin.image_directory+'/'+prin.image_directory+'.jpg')}}" alt="main image for {{prin.title}}" />
 <div class="print__details"> 
-	{%if prin.medium%}
-		<h2 class="print-detail__header"> Medium</h2>
-		<p class="print-detail"> {{prin.medium}}</p>
+	{% if prin.process %}
+		<h2 class="print-detail__header"> Process </h2>
+		<p class="print-detail"> {{prin.process}}</p>
 	{% endif %}
 	{%if prin.materials %}
 		<h2 class="print-detail__header"> Materials </h2>

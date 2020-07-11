@@ -1,9 +1,9 @@
 title: Circular Time 
 created: 2013
 image_directory: 'circular-time'
-material: Handmade paper, archival digital prints from photography and drawings, beeswax, rivets.
+materials: handmade paper, archival digital prints from photography and drawings, beeswax, rivets.
 dimensions: 3 x 13 cm
-location: Collection of the artist
+
 
 Circular Time Story is one example of my exploration (and past obsession!) with circular shapes. That has led me to explore a wide variety of cycles. Making my own paper enabled
 

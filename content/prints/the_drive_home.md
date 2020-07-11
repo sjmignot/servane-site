@@ -2,7 +2,7 @@ title: The Drive Home
 created: 2013
 image_directory: the_drive_home
 dimensions: 15 x 10 cm
-medium: Solar etching
+process: Solar etching
 edition: EV of 21
 
 I went to Syria in December 2009, two years before the start of the civil war. I took this picture on Christmas Day 2009, in a village between Latakia and Aleppo.The Syrian conflict is a tragedy of civil war, torture, human rights violations and humanitarian disaster.

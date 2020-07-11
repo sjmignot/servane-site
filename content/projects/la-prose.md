@@ -2,7 +2,7 @@ title: La Prose du Transsibérian
 created: 2019
 image_directory: 'la-prose'
 dimensions: 36.7 x 9.7 x 3 cm
-materials: goatskin leather, wood veneer, kozo and abaca paper, beeswax, embroidery thread, LED board
+materials: goatskin leather, wood veneer, kozo and abaca paper, beeswax, embroidery thread, LED board.
 
 Fusion of text and colors, simultanéité, incredible rhythm and music, quasi cinematic effects transport the reader-viewer who embarks on this imaginary poetic voyage on the Transsibérien anchored in Paris. What could be more fun than doing another collaboration to bring “la fée électricité” and light into the artists’ book? 
 
