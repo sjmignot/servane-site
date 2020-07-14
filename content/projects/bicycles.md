@@ -1,4 +1,4 @@
-title: Les Bicyclettes Font la Chaîn
+title: Les Bicyclettes Font la Chaîne
 created: 2015
 image_directory: 'bicycles'
 dimensions: open - 59 X 18 cm, closed - 19 x 5.7 cm

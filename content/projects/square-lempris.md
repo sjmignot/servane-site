@@ -1,4 +1,4 @@
-title: Lempris (square)
+title: Lempris
 created: 2017
 image_directory: 'square-lempris'
 materials: Kozo and Anna Amalia paper, sensuede, Archival digital inks, Sennelier, Charbonnel and Herbin inks, beeswax, neodymium magnets, book board, silk ribbon

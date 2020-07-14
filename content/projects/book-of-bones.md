@@ -1,4 +1,4 @@
-title: Book of Bones 
+title: A Book of Bones 
 created: 2015
 image_directory: 'book-of-bones/'
 materials: full natural goatskin, silk endbands

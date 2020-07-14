@@ -68,7 +68,7 @@ def work():
                            prints=prints)
 
 
-@app.route("/gallery/<name>")
+@app.route("/gallery/<name>/")
 def work_project(name):
     path = f'{PROJECT_DIR}/{name}'
     proj = flatpages.get_or_404(path)
@@ -84,7 +84,7 @@ def work_project(name):
                            images=images[::-1])
 
 
-@app.route("/gallery/print/<name>")
+@app.route("/gallery/print/<name>/")
 def work_print(name):
     path = f'{PRINT_DIR}/{name}'
     prin = flatpages.get_or_404(path)

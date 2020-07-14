@@ -1,4 +1,4 @@
-title: Calidris 
+title: Calidris Minutilla
 created: 2013
 image_directory: 'calidris'
 dimensions: 15.25 x 8.25 x 1.3 cm

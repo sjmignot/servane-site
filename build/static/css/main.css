@@ -78,7 +78,7 @@
   --sc-clr: rgba(0,0,0,.55);
   --link-clr: #3b75a6;
   --accent-clr: #a44f23;
-  --bg-clr-2: rgb(103,93,72, .8);
+  --bg-clr-2: rgb(103,93,72, .9);
 
   --max-width: 1200px;
   --screen-padding: 3rem;
@@ -106,7 +106,6 @@ h3 {
 body {
   background-color: var(--bg-clr);
   margin: 0 0 100px;
-  padding: 25px;
 }
 
 footer {
@@ -126,6 +125,7 @@ footer {
 	margin: auto;
 	font-family: var(--ff-base);
 	font-size: .75rem;
+	font-style:italic;
 }
 
 a {
@@ -159,7 +159,6 @@ header {
   flex-grow: 1;
 }
 .nav__links {
-  background-color: #ffc522db;
   list-style: none;
   display: flex;
   justify-content: space-around;
@@ -371,6 +370,7 @@ header {
 	
 .date-select__list {
 	margin: auto;
+	font-size: larger;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -650,10 +650,10 @@ a.project-detail__collab-name, a.print-detail__collab-name {
 }
 
 .btn {
-  height: 10vw;
-  width: 10vw;  
+  height: calc(.5rem + 5vw);
+  width: calc(.5rem + 5vw);  
   font-family: var(--ff-second);
-  font-size: 5vw;
+  font-size: 3vw;
   font-weight: bold;
   /* border-radius: 50%; */
   background-color: transparent;
@@ -663,7 +663,7 @@ a.project-detail__collab-name, a.print-detail__collab-name {
   justify-content: center;
   text-align: center;
   cursor: pointer;
-  border: .5vw solid white;
+  border: .3vw solid white;
   transition: background-color 500ms ease-in-out, color 500ms ease-in-out;
 }
 
@@ -671,6 +671,7 @@ a.project-detail__collab-name, a.print-detail__collab-name {
 	background-color: white;
 	color: var(--bg-clr-2);
 }
+
 
 /* Index Page */
 .banner__wrapper {
@@ -729,7 +730,7 @@ a.project-detail__collab-name, a.print-detail__collab-name {
 }
 
 .category__link {
-	color: var(--link-clr);
+	color: rgba(0,0,0,.7);
 	font-family: var(--ff-base);
 	text-transform: uppercase;
 	font-size: x-large;
@@ -737,15 +738,17 @@ a.project-detail__collab-name, a.print-detail__collab-name {
 	margin: auto;
 	text-decoration: underline;
 	text-decoration-color: transparent;
-	transition: text-decoration-color 300ms ease-in;
+	transition: text-decoration-color 300ms ease-in,
+				color 300ms ease-in;
 }
 
 .category__link:hover {
 	text-decoration-color: var(--link-clr); 
+	color: var(--link-clr);
 }
 
 .index-page__divider {
-	margin-bottom: 2rem;
+	margin: 2rem 0;
 }
 
 .quote__wrapper {
@@ -756,6 +759,7 @@ a.project-detail__collab-name, a.print-detail__collab-name {
 
 .quote-text {
 	padding: auto 2rem auto 0;
+	font-size:smaller;
 	width: max(60%, 500px);
 	font-style: italic;
 	line-height: 1.6;
@@ -766,7 +770,6 @@ a.project-detail__collab-name, a.print-detail__collab-name {
 .quote-author {
 	position:relative;
 	text-transform: uppercase;
-	font-size: x-large;
 	opacity: .4;
 	margin: auto 0;
 	
@@ -901,7 +904,7 @@ input, textarea {
   :root {  
 	--screen-padding: 1rem;
 	--profile-text-width: 100%;
-	--profile-text-size: 12px;
+	--profile-text-size: 10px;
 	}
 
 	.first-section__text--right {

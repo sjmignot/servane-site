@@ -1,4 +1,4 @@
-title: La Prose du Transsibérian
+title: La Prose du Transsibérien
 created: 2019
 image_directory: 'la-prose'
 dimensions: 36.7 x 9.7 x 3 cm

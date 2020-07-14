@@ -106,7 +106,6 @@ h3 {
 body {
   background-color: var(--bg-clr);
   margin: 0 0 100px;
-  padding: 25px;
 }
 
 footer {
@@ -160,7 +159,6 @@ header {
   flex-grow: 1;
 }
 .nav__links {
-  background-color: #ffc522db;
   list-style: none;
   display: flex;
   justify-content: space-around;
@@ -372,6 +370,7 @@ header {
 	
 .date-select__list {
 	margin: auto;
+	font-size: larger;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -673,6 +672,7 @@ a.project-detail__collab-name, a.print-detail__collab-name {
 	color: var(--bg-clr-2);
 }
 
+
 /* Index Page */
 .banner__wrapper {
 	width: 100%;
@@ -904,7 +904,7 @@ input, textarea {
   :root {  
 	--screen-padding: 1rem;
 	--profile-text-width: 100%;
-	--profile-text-size: 12px;
+	--profile-text-size: 10px;
 	}
 
 	.first-section__text--right {
