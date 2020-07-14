@@ -52,11 +52,11 @@ def work():
     projects = get_projects()
     prints = get_prints()
 
-    prints.sort(key=lambda x: x['created'])
+    prints.sort(key=lambda x: x['created'], reverse=True)
     projects.sort(key=lambda x: (x['created'], x['title']))
 
     dp = [project['created'] for project in projects]
-    date_projects = [(str(k), list(g))
+    date_projects = [(str(k), sorted(list(g), key=lambda x: x[1]['created'], reverse=True))
                      for k, g in groupby(zip(dp, projects), key=date_group_key)
                      ]
 
@@ -73,7 +73,7 @@ def work_project(name):
         os.path.join('static/img/projects/', proj['image_directory'], i)
         for i in os.listdir(
             os.path.join('static/img/projects/', proj['image_directory']))
-        if i != 'thumbnail.jpg'
+        if i != 'thumbnail.jpg' and i[-3:] == 'jpg'
     ]
 
     return render_template('project_page.html',

@@ -441,12 +441,19 @@ header {
 	background-color: #666666;
 	font-family: var(--ff-base);
 	padding: 1rem;
-	width: min(400px, 100%);
+	width: 400px;
 	float: left;
 	margin-right: 1rem;
 	padding-top: 0;
 	padding-bottom: 1.2rem;
 	margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+	.project__details, .print__details {
+		width: 100%;
+		margin: 0 auto 1rem auto;		
+	}
 }
 
 .project-content__wrapper {
