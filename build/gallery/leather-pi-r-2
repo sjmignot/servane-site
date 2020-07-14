@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title> servane briand </title>
+  <link rel="stylesheet" href="/static/css/main.css">
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content=" Servane Briand Exhibits ">
+</head>
+<body>
+    <div id="top" class="container">
+		<header>
+		<!-- navbar -->
+			<div class="logo">
+				<a class="logo__link" href="/"><img src="/static/img/nameheader.svg"/></a>
+			</div>
+			<nav class="nav"> 
+				<ul class="nav__links">
+					</li>
+					<li class="links__item"><a class="links__link " href="/gallery">works</a></li>
+					<li class="links__item"><a class="links__link "href="/exhibits">exhibits</a></li>
+					<li class="links__item"><a class="links__link " href="/profile"> profile </a></li>
+					<li class="links__item"><a class="links__link " href="/contact"> contact </a></li>
+				</ul>
+			</nav>
+	</header>
+
+	<!-- content -->
+	<section class="content-wrapper">
+	  
+<h1 class="project__title">πr2 (leather)</h1>
+<img class="project__image project__image--main" src="/static/img/projects/leather-pi-r-2/1.jpg" alt="main image for πr2 (leather)" />
+<div class="project-content__wrapper">
+<div class="project__details"> 
+	
+		<h2 class="project-detail__header"> Binding </h2>
+		<p class="project-detail"> Briand&#39;s rivet binding</p>
+	
+	
+		<h2 class="project-detail__header"> Materials </h2>
+		<p class="project-detail"> goatskin leather, museum board, neodymium magnets, beeswax and pigment on recycled intaglio prints</p>
+	
+
+	
+	<h2 class="project-detail__header"> Dimensions </h2>
+	<p class="project-detail"> Box Diameter: 9 cm, Height: 8 cm. Book Diameter: 7.5 cm, Height: 4 cm. </p>
+	
+
+	
+	<h2 class="project-detail__header"> Edition </h2>
+	<p class="project-detail"> 1 of 1 </p>
+	
+
+	
+	 
+	
+</div>
+<div class="project__description" />
+		<p>The last iteration of the πr2 series features another box with pivoting lid covered with leather with playful poka dots leather onlays. It features three round books made of rejected or recycled etching prints painted with encaustic medium presenting variations of the polka dot theme. </p>
+</div>
+</div> 
+<section id="images">
+
+	<img class="project__image" src=/static/img/projects/leather-pi-r-2/3.jpg alt="image  for project.title"/>
+
+	<img class="project__image" src=/static/img/projects/leather-pi-r-2/2.jpg alt="image  for project.title"/>
+
+	<img class="project__image" src=/static/img/projects/leather-pi-r-2/5.jpg alt="image  for project.title"/>
+
+	<img class="project__image" src=/static/img/projects/leather-pi-r-2/4.jpg alt="image  for project.title"/>
+
+</section>
+
+
+	</section>
+	<footer>
+		<p class="footer__credits">Designed by <a href="https://samuelmignot.com" target="_blank">Samuel Mignot</a></p>
+	</footer>
+	</div>
+      
+ </body>
+</html>

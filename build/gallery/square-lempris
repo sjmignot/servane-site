@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title> servane briand </title>
+  <link rel="stylesheet" href="/static/css/main.css">
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content=" Servane Briand Exhibits ">
+</head>
+<body>
+    <div id="top" class="container">
+		<header>
+		<!-- navbar -->
+			<div class="logo">
+				<a class="logo__link" href="/"><img src="/static/img/nameheader.svg"/></a>
+			</div>
+			<nav class="nav"> 
+				<ul class="nav__links">
+					</li>
+					<li class="links__item"><a class="links__link " href="/gallery">works</a></li>
+					<li class="links__item"><a class="links__link "href="/exhibits">exhibits</a></li>
+					<li class="links__item"><a class="links__link " href="/profile"> profile </a></li>
+					<li class="links__item"><a class="links__link " href="/contact"> contact </a></li>
+				</ul>
+			</nav>
+	</header>
+
+	<!-- content -->
+	<section class="content-wrapper">
+	  
+<h1 class="project__title">Lempris (square)</h1>
+<img class="project__image project__image--main" src="/static/img/projects/square-lempris/1.jpg" alt="main image for Lempris (square)" />
+<div class="project-content__wrapper">
+<div class="project__details"> 
+	
+	
+		<h2 class="project-detail__header"> Materials </h2>
+		<p class="project-detail"> Kozo and Anna Amalia paper, sensuede, Archival digital inks, Sennelier, Charbonnel and Herbin inks, beeswax, neodymium magnets, book board, silk ribbon</p>
+	
+
+	
+	<h2 class="project-detail__header"> Dimensions </h2>
+	<p class="project-detail"> 27 x 15 x 15 cm </p>
+	
+
+	
+	<h2 class="project-detail__header"> Edition </h2>
+	<p class="project-detail"> #3, #4 &amp; #5 in EV of 7 </p>
+	
+
+	
+	 
+	
+</div>
+<div class="project__description" />
+		<p>We built pyramids to the ancient kings. And still wonder at their mysterious beauty. Lempris, the Rat Prince, with his regal and Nietzschean lineage deserves no less of a monument as a tribute to his motionful struggles to meaning and survival. As the reader enters the secret chambers of the pyramid, he may discover the verse and lines that tell the story of a brave soul, not afraid to look inward and beyond the trivial segments, but determined to go to the end of it. A collaboration between mother and son, Servane Briand and Samuel Mignot, Lempris is also a tribute to the remarkable work of origami artist Eric Joisel who invented the rat figure. Reminiscent of the embalming materials of Egyptian mummies, beeswax features prominently in Lempris, adding transparency and a sense of timelessness to the work.</p>
+</div>
+</div> 
+<section id="images">
+
+	<img class="project__image" src=/static/img/projects/square-lempris/3.jpg alt="image  for project.title"/>
+
+	<img class="project__image" src=/static/img/projects/square-lempris/2.jpg alt="image  for project.title"/>
+
+	<img class="project__image" src=/static/img/projects/square-lempris/4.jpg alt="image  for project.title"/>
+
+</section>
+
+
+	</section>
+	<footer>
+		<p class="footer__credits">Designed by <a href="https://samuelmignot.com" target="_blank">Samuel Mignot</a></p>
+	</footer>
+	</div>
+      
+ </body>
+</html>

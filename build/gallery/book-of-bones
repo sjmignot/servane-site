@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title> servane briand </title>
+  <link rel="stylesheet" href="/static/css/main.css">
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content=" Servane Briand Exhibits ">
+</head>
+<body>
+    <div id="top" class="container">
+		<header>
+		<!-- navbar -->
+			<div class="logo">
+				<a class="logo__link" href="/"><img src="/static/img/nameheader.svg"/></a>
+			</div>
+			<nav class="nav"> 
+				<ul class="nav__links">
+					</li>
+					<li class="links__item"><a class="links__link " href="/gallery">works</a></li>
+					<li class="links__item"><a class="links__link "href="/exhibits">exhibits</a></li>
+					<li class="links__item"><a class="links__link " href="/profile"> profile </a></li>
+					<li class="links__item"><a class="links__link " href="/contact"> contact </a></li>
+				</ul>
+			</nav>
+	</header>
+
+	<!-- content -->
+	<section class="content-wrapper">
+	  
+<h1 class="project__title">Book of Bones</h1>
+<img class="project__image project__image--main" src="/static/img/projects/book-of-bones/1.jpg" alt="main image for Book of Bones" />
+<div class="project-content__wrapper">
+<div class="project__details"> 
+	
+	
+		<h2 class="project-detail__header"> Materials </h2>
+		<p class="project-detail"> full natural goatskin, silk endbands</p>
+	
+
+	
+	<h2 class="project-detail__header"> Dimensions </h2>
+	<p class="project-detail"> 16 x 15 x 3.3 cm </p>
+	
+
+	
+	<h2 class="project-detail__header"> Edition </h2>
+	<p class="project-detail"> EV of 3 </p>
+	
+
+	
+	 
+	
+		<h2 class="project-detail__header"> Finebinding</h2>
+		<ul class="project-detail project-detail--list">
+		<li class="project-detail__list-item">
+			<b>author</b>: Servane Briand
+		</li>
+		<li class="project-detail__list-item">
+			<b>illustrator</b>: 
+		</li>
+		<li class="project-detail__list-item">
+			<b>press</b>: 
+		</li>
+		<li class="project-detail__list-item">
+			<b>year</b>: 
+		</li>
+		</ul>
+	
+</div>
+<div class="project__description" />
+		<p>A book of bones was born at the Galerie de Paléontologie in Paris, France. I wanted to pay tribute to the scientific process; one that takes patience, resilience, hard work but also intuition and creativity; great scientists, like great artists, imagine the impossible. They make the leap.</p>
+<p>I spent hours studying our current knowledge and folklore of bones, researching material, following leads, discovering the most recent understanding of bone development as well as arcane matters that relate to bone preservation, ethnic or religious rituals. It was a fascinating process, at times overwhelming.</p>
+<p>The current book can be approached from various perspectives, as a reliquary, an archeological dig, a poem on bones, a celebration of carpe diem, but also and maybe more importantly, a way to honor generations of paleontologists who relentlessly and carefully examine and reconstruct our past in order to understand our present and imagine our future.</p>
+</div>
+</div> 
+<section id="images">
+
+	<img class="project__image" src=/static/img/projects/book-of-bones/3.jpg alt="image  for project.title"/>
+
+	<img class="project__image" src=/static/img/projects/book-of-bones/2.jpg alt="image  for project.title"/>
+
+	<img class="project__image" src=/static/img/projects/book-of-bones/6.jpg alt="image  for project.title"/>
+
+	<img class="project__image" src=/static/img/projects/book-of-bones/5.jpg alt="image  for project.title"/>
+
+	<img class="project__image" src=/static/img/projects/book-of-bones/4.jpg alt="image  for project.title"/>
+
+</section>
+
+
+	</section>
+	<footer>
+		<p class="footer__credits">Designed by <a href="https://samuelmignot.com" target="_blank">Samuel Mignot</a></p>
+	</footer>
+	</div>
+      
+ </body>
+</html>

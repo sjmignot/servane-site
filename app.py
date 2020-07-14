@@ -3,8 +3,9 @@ from flask_flatpages import FlatPages
 from datetime import datetime
 from pytz import timezone
 from itertools import groupby
+from flask_frozen import Freezer
 import os
-from PIL import Image
+import sys
 
 DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
@@ -21,6 +22,7 @@ PRINTS_DIR = 'prints'
 app = Flask(__name__)
 app.config.from_object(__name__)
 flatpages = FlatPages(app)
+freezer = Freezer(app)
 
 
 def get_projects():
@@ -56,9 +58,10 @@ def work():
     projects.sort(key=lambda x: (x['created'], x['title']))
 
     dp = [project['created'] for project in projects]
-    date_projects = [(str(k), sorted(list(g), key=lambda x: x[1]['created'], reverse=True))
-                     for k, g in groupby(zip(dp, projects), key=date_group_key)
-                     ]
+    date_projects = [
+        (str(k), sorted(list(g), key=lambda x: x[1]['created'], reverse=True))
+        for k, g in groupby(zip(dp, projects), key=date_group_key)
+    ]
 
     return render_template('gallery.html',
                            date_projects=date_projects,
@@ -118,4 +121,7 @@ def expos():
 
 # Main Function, Runs at http://0.0.0.0:8000
 if __name__ == "__main__":
-    app.run(port=8000)
+    if len(sys.argv) > 1 and sys.argv[1] == "build":
+        freezer.freeze()
+    else:
+        app.run(host='0.0.0.0', debug=True)

@@ -1,0 +1,17 @@
+{
+  "name": "servane-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sjmignot/servane-site.git",
+  "author": "sjmignot <sjmignot@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "python3 app.py",
+    "build": "python3 app.py build",
+    "postbuild": "gulp css images && cp -r build/* ../servanebriand.github.io"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "postcss": "^7.0.32"
+  }
+}

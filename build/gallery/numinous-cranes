@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title> servane briand </title>
+  <link rel="stylesheet" href="/static/css/main.css">
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content=" Servane Briand Exhibits ">
+</head>
+<body>
+    <div id="top" class="container">
+		<header>
+		<!-- navbar -->
+			<div class="logo">
+				<a class="logo__link" href="/"><img src="/static/img/nameheader.svg"/></a>
+			</div>
+			<nav class="nav"> 
+				<ul class="nav__links">
+					</li>
+					<li class="links__item"><a class="links__link " href="/gallery">works</a></li>
+					<li class="links__item"><a class="links__link "href="/exhibits">exhibits</a></li>
+					<li class="links__item"><a class="links__link " href="/profile"> profile </a></li>
+					<li class="links__item"><a class="links__link " href="/contact"> contact </a></li>
+				</ul>
+			</nav>
+	</header>
+
+	<!-- content -->
+	<section class="content-wrapper">
+	  
+<h1 class="project__title">Numinous Cranes</h1>
+<img class="project__image project__image--main" src="/static/img/projects/numinous-cranes/1.jpg" alt="main image for Numinous Cranes" />
+<div class="project-content__wrapper">
+<div class="project__details"> 
+	
+	
+
+	
+
+	
+	<h2 class="project-detail__header"> Edition </h2>
+	<p class="project-detail"> 1 of 1 </p>
+	
+
+	
+	
+	<h2 class="project-detail__header"> Location </h2>
+	<p class="project-detail"> University of Texas, Rare Book Collection </p>
+	 
+	
+</div>
+<div class="project__description" />
+		<p>Numinous Cranes explores various spiritual traditions and tries to understand the need for prayer and meditation. The bible reader, the crane folder, each one of us long for the meaningful and walk the mysterious line between spiritual and secular. By deconstructing the sacred book and transforming it into a healing project, I created my own meditative journey. By incorporating words and beeswax in the folded structures and squaring the nests, I escaped from orthodoxy. By assembling the birds, you create the narrative!</p>
+</div>
+</div> 
+<section id="images">
+
+	<img class="project__image" src=/static/img/projects/numinous-cranes/3.jpg alt="image  for project.title"/>
+
+	<img class="project__image" src=/static/img/projects/numinous-cranes/2.jpg alt="image  for project.title"/>
+
+	<img class="project__image" src=/static/img/projects/numinous-cranes/5.jpg alt="image  for project.title"/>
+
+	<img class="project__image" src=/static/img/projects/numinous-cranes/4.jpg alt="image  for project.title"/>
+
+</section>
+
+
+	</section>
+	<footer>
+		<p class="footer__credits">Designed by <a href="https://samuelmignot.com" target="_blank">Samuel Mignot</a></p>
+	</footer>
+	</div>
+      
+ </body>
+</html>

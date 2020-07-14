@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title> servane briand </title>
+  <link rel="stylesheet" href="/static/css/main.css">
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content=" Servane Briand Exhibits ">
+</head>
+<body>
+    <div id="top" class="container">
+		<header>
+		<!-- navbar -->
+			<div class="logo">
+				<a class="logo__link" href="/"><img src="/static/img/nameheader.svg"/></a>
+			</div>
+			<nav class="nav"> 
+				<ul class="nav__links">
+					</li>
+					<li class="links__item"><a class="links__link " href="/gallery">works</a></li>
+					<li class="links__item"><a class="links__link "href="/exhibits">exhibits</a></li>
+					<li class="links__item"><a class="links__link " href="/profile"> profile </a></li>
+					<li class="links__item"><a class="links__link " href="/contact"> contact </a></li>
+				</ul>
+			</nav>
+	</header>
+
+	<!-- content -->
+	<section class="content-wrapper">
+	  
+<h1 class="project__title">Work in Progress</h1>
+<img class="project__image project__image--main" src="/static/img/projects/work-in-progress/1.jpg" alt="main image for Work in Progress" />
+<div class="project-content__wrapper">
+<div class="project__details"> 
+	
+	
+		<h2 class="project-detail__header"> Materials </h2>
+		<p class="project-detail"> cover in Pergamena orange parchment, archival digital prints on Awagami and Asuka paper, etching inks, kakishibu, watercolor pencils, beeswax and pigment</p>
+	
+
+	
+	<h2 class="project-detail__header"> Dimensions </h2>
+	<p class="project-detail"> 45 x 38 x 2.5 cm </p>
+	
+
+	
+	<h2 class="project-detail__header"> Edition </h2>
+	<p class="project-detail"> 1 of 1 </p>
+	
+
+	
+	 
+	
+</div>
+<div class="project__description" />
+		<p>Inspired by famous paintings and etchings, work in progress is a series of monotypes collected in an artists’ book, an introspective pursuit of what shapes a person and makes a life meaningful. It is a very personal work and an invitation to conversation for the many people and works it references</p>
+</div>
+</div> 
+<section id="images">
+
+	<img class="project__image" src=/static/img/projects/work-in-progress/3.jpg alt="image  for project.title"/>
+
+	<img class="project__image" src=/static/img/projects/work-in-progress/2.jpg alt="image  for project.title"/>
+
+	<img class="project__image" src=/static/img/projects/work-in-progress/6.jpg alt="image  for project.title"/>
+
+	<img class="project__image" src=/static/img/projects/work-in-progress/5.jpg alt="image  for project.title"/>
+
+	<img class="project__image" src=/static/img/projects/work-in-progress/4.jpg alt="image  for project.title"/>
+
+</section>
+
+
+	</section>
+	<footer>
+		<p class="footer__credits">Designed by <a href="https://samuelmignot.com" target="_blank">Samuel Mignot</a></p>
+	</footer>
+	</div>
+      
+ </body>
+</html>

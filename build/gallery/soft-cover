@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title> servane briand </title>
+  <link rel="stylesheet" href="/static/css/main.css">
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content=" Servane Briand Exhibits ">
+</head>
+<body>
+    <div id="top" class="container">
+		<header>
+		<!-- navbar -->
+			<div class="logo">
+				<a class="logo__link" href="/"><img src="/static/img/nameheader.svg"/></a>
+			</div>
+			<nav class="nav"> 
+				<ul class="nav__links">
+					</li>
+					<li class="links__item"><a class="links__link " href="/gallery">works</a></li>
+					<li class="links__item"><a class="links__link "href="/exhibits">exhibits</a></li>
+					<li class="links__item"><a class="links__link " href="/profile"> profile </a></li>
+					<li class="links__item"><a class="links__link " href="/contact"> contact </a></li>
+				</ul>
+			</nav>
+	</header>
+
+	<!-- content -->
+	<section class="content-wrapper">
+	  
+<h1 class="project__title">Soft Cover</h1>
+<img class="project__image project__image--main" src="/static/img/projects/soft-cover/1.jpg" alt="main image for Soft Cover" />
+<div class="project-content__wrapper">
+<div class="project__details"> 
+	
+		<h2 class="project-detail__header"> Binding </h2>
+		<p class="project-detail"> Accordion binding</p>
+	
+	
+		<h2 class="project-detail__header"> Materials </h2>
+		<p class="project-detail"> bookboard, cashmere and Mia Zia fabric lined with kozo. Arches, kozo, shell and Thai unryu papers, linen thread, archival Epson ink</p>
+	
+
+	
+	<h2 class="project-detail__header"> Dimensions </h2>
+	<p class="project-detail"> 28 x 18 x 2 cm and 22 x 18 x 3 cm </p>
+	
+
+	
+	<h2 class="project-detail__header"> Edition </h2>
+	<p class="project-detail"> EV of 2 </p>
+	
+
+	
+	 
+	
+</div>
+<div class="project__description" />
+		<p>One of the softcover series. Each book in this series is unique. They share a theme: cover is soft, content is...not soft! In "c'est doux mais çà pique", the theme is interpreted literally. Your hands want to stroke the book as you would a furry pet, yet the book opens on a series of prints of cacti, which thorns you try and avoid. On the other side, the latin names of many members of the Cactaceae are printed on Kozo and torn as if the paper got caught on the thorns and partially shred.</p>
+</div>
+</div> 
+<section id="images">
+
+	<img class="project__image" src=/static/img/projects/soft-cover/3.jpg alt="image  for project.title"/>
+
+	<img class="project__image" src=/static/img/projects/soft-cover/2.jpg alt="image  for project.title"/>
+
+	<img class="project__image" src=/static/img/projects/soft-cover/4.jpg alt="image  for project.title"/>
+
+</section>
+
+
+	</section>
+	<footer>
+		<p class="footer__credits">Designed by <a href="https://samuelmignot.com" target="_blank">Samuel Mignot</a></p>
+	</footer>
+	</div>
+      
+ </body>
+</html>
