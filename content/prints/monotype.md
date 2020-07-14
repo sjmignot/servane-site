@@ -1,0 +1,15 @@
+title: "1992"
+created: 2014
+image_directory: "1992"
+dimensions: 51 x 51 cm
+process: Screenprinting
+edition: 1 of 1
+medium: Monotype
+
+In 2014 Menlo College was celebrating its 85 years of history and heritage and randomly matched artists and years across the timeline. I was assigned 1992, a year of transition for me. the year I got married, adopted a dog, moved again from France to California. 
+
+A year of many changes. When I researched the project, I realized that I had forgotten so much of that year and felt that my sense of time was warped. 
+
+1992 was the 500th anniversary of Columbus’s first voyage from Spain to the New World. This Age of Discovery could be defined by the remarkable desire to explore the unknown and acquire new knowledge that underlined so many adventures. I wanted to pay homage to this relentless curiosity and the drive to break new ground. The constant search for novelty and risk taking are key
+factors in the culture of the Bay Area. It participates in making this part of the world so attractive, inviting always more explorers from around the globe to join in the quest and keep expanding our intelligences and understanding of our world.
+

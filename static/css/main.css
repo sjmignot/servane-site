@@ -449,6 +449,10 @@ header {
 	margin-bottom: 1rem;
 }
 
+.project-content__wrapper {
+	overflow: hidden;
+}
+
 .project-detail__header, .print-detail__header {
 	text-transform: uppercase;
 	font-size: .9rem;
@@ -492,6 +496,7 @@ a.project-detail__collab-name, a.print-detail__collab-name {
 .project__image, .print__image {
     width: 100% !important;
     height: auto !important;
+	margin-bottom: 1rem;
 }
 
 .project__image--main, .print__image--main {
@@ -506,6 +511,7 @@ a.project-detail__collab-name, a.print-detail__collab-name {
   -moz-column-gap:      0px;
   column-count:         2;
   column-gap:           0px;  
+  grid-gap: 1rem;
 }
 
 @media (max-width: 1200px) {
@@ -643,9 +649,9 @@ a.project-detail__collab-name, a.print-detail__collab-name {
 
 .banner__grid {
 	display: grid;
-	grid-template-columns: repeat(11, 1fr);
+	grid-template-columns: repeat(10, 1fr);
 	grid-gap: 0;
-	width: min(100%, calc(72px * 11));
+	width: 100%;
 	margin: 3rem auto 3rem;
 	box-sizing: content-box;
 	border: solid 2px var(--sc-clr);
@@ -670,6 +676,7 @@ a.project-detail__collab-name, a.print-detail__collab-name {
 	animation: fade;
 	animation-duration: 4s;
 	animation-fill-mode: forwards;
+	width: 100%;
 }
 
 @keyframes fade {
@@ -687,6 +694,7 @@ a.project-detail__collab-name, a.print-detail__collab-name {
 	display: flex;
 	justify-content: space-evenly;
 	margin-bottom: 6rem;
+	flex-wrap: wrap;
 }
 
 .category__link {
@@ -845,7 +853,7 @@ input, textarea {
 
 @media all and (max-width: 500px) {  
   :root {  
-	--screen-padding: 1.5rem;
+	--screen-padding: 1rem;
 	--profile-text-width: 100%;
 	--profile-text-size: 12px;
 	}
