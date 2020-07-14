@@ -588,7 +588,7 @@ const quotes = [
   },
   {
     quote:
-      "One of the things that was really influential early on was Ezra Pound's Cantos, one poem he worked on for 50 years. It's epic. I had a great deal of difficulty understanding it. One of the problems was you'd be reading along in English and he would move to a Chinese ideogram or Frenchâ€“he actually used seven different languages in a given poem. And for somebody who's not fluent in different languages it has the impact of rupturing your way of understanding something.",
+      "One of the things that was really influential early on was Ezra Pound's Cantos, one poem he worked on for 50 years. It's epic. I had a great deal of difficulty understanding it. One of the problems was you'd be reading along in English and he would move to a Chinese ideogram or French. He actually used seven different languages in a given poem. And for somebody who's not fluent in different languages it has the impact of rupturing your way of understanding something.",
     author: "Richard Misrach",
   },
   {
