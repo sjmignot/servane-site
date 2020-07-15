@@ -5,56 +5,56 @@
 /* IBMPlex Font */
 @font-face {
   font-family: "IBMPlexMono";
-  src: url("../font/IBMPlexMono-Light.otf") format("otf");
+  src: url("../fonts/IBMPlexMono-Light.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "IBMPlexMono";
-  src: url("../font/IBMPlexMono-Regular.otf") format("otf");
+  src: url("../fonts/IBMPlexMono-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "IBMPlexMono";
-  src: url("../font/IBMPlexMono-ThinItalic.otf") format("otf");
+  src: url("../fonts/IBMPlexMono-ThinItalic.otf") format("opentype");
   font-weight: 100;
   font-style: italic;
 }
 
 @font-face {
   font-family: "IBMPlexMono";
-  src: url("../font/IBMPlexMono-ThinItalic.otf") format("otf");
+  src: url("../fonts/IBMPlexMono-ThinItalic.otf") format("opentype");
   font-weight: 100;
   font-style: italic;
 }
 
 @font-face {
   font-family: "IBMPlexSans";
-  src: url("../font/IBMPlexSans-Light.otf") format("otf");
+  src: url("../fonts/IBMPlexSans-Light.otf") format("opentype");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: "IBMPlexSans";
-  src: url("../font/IBMPlexSerif-Light.otf") format("otf");
+  src: url("../fonts/IBMPlexSerif-Light.otf") format("opentype");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: "IBMPlexSans";
-  src: url("../font/IBMPlexSerif-Thin.otf") format("otf");
+  src: url("../fonts/IBMPlexSerif-Thin.otf") format("opentype");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: "IBMPlexSans";
-  src: url("../font/IBMPlexSerif-ThinItalic.otf") format("otf");
+  src: url("../fonts/IBMPlexSerif-ThinItalic.otf") format("opentype");
   font-weight: 200;
   font-style: italic;
 }

@@ -5,57 +5,36 @@
 /* IBMPlex Font */
 @font-face {
   font-family: "IBMPlexMono";
-  src: url("../font/IBMPlexMono-Light.otf") format("otf");
+  src: url("../fonts/IBMPlexMono-Light.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "IBMPlexMono";
-  src: url("../font/IBMPlexMono-Regular.otf") format("otf");
+  src: url("../fonts/IBMPlexMono-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "IBMPlexMono";
-  src: url("../font/IBMPlexMono-ThinItalic.otf") format("otf");
+  src: url("../fonts/IBMPlexMono-ThinItalic.otf") format("opentype");
   font-weight: 100;
   font-style: italic;
 }
 
 @font-face {
   font-family: "IBMPlexMono";
-  src: url("../font/IBMPlexMono-ThinItalic.otf") format("otf");
+  src: url("../fonts/IBMPlexMono-ThinItalic.otf") format("opentype");
   font-weight: 100;
   font-style: italic;
 }
 
 @font-face {
   font-family: "IBMPlexSans";
-  src: url("../font/IBMPlexSans-Light.otf") format("otf");
+  src: url("../fonts/IBMPlexSans-Light.otf") format("opentype");
   font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "IBMPlexSans";
-  src: url("../font/IBMPlexSerif-Light.otf") format("otf");
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "IBMPlexSans";
-  src: url("../font/IBMPlexSerif-Thin.otf") format("otf");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "IBMPlexSans";
-  src: url("../font/IBMPlexSerif-ThinItalic.otf") format("otf");
-  font-weight: 200;
   font-style: italic;
 }
 
@@ -164,7 +143,8 @@ header {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  font-size: var(--font-size-header)
+  font-size: var(--font-size-header);
+  margin-top: .4rem;
 }
 
 .links__item {
@@ -178,7 +158,7 @@ header {
 
 .logo__link > img {
   width: 100%;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .links__link {
@@ -574,6 +554,21 @@ a.project-detail__collab-name, a.print-detail__collab-name {
   }
 }
 
+.return-arrow__wrapper {
+	display: flex;
+}
+
+.return-arrow__link {
+	margin: 3rem auto 0;
+	font-size: larger;
+	font-family: var(--ff-base);
+}
+
+.return-arrow {
+	font-family: sans-serif;
+}
+
+
 /* Profile Page */
 
 .profile-wrapper {
@@ -759,18 +754,15 @@ a.project-detail__collab-name, a.print-detail__collab-name {
 
 .quote-text {
 	padding: auto 2rem auto 0;
-	font-size:smaller;
 	width: max(60%, 500px);
 	font-style: italic;
 	line-height: 1.6;
 	margin: auto 0;
-	opacity: .6;
 }
 
 .quote-author {
 	position:relative;
-	text-transform: uppercase;
-	opacity: .4;
+	opacity: .5;
 	margin: auto 0;
 	
 }

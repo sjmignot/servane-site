@@ -1,7 +1,7 @@
 title: Codex Book Fair 
 start_date: 02-03-2019
 end_date: 02-06-2019
-event_link: www.codexfoundation.org
+event_link: https://www.codexfoundation.org
 event_image: codex_book_fair.jpg
 location: Craneway Pavillion, Richmond, California, USA
 

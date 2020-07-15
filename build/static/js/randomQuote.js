@@ -72,7 +72,7 @@ const quotes = [
   },
   {
     quote:
-      "Si j'étais écrivain et mort, comme j'aimerais que ma vie se réduis&icirc;t, par les soins d'un biographe amical et désinvolte, à quelques détails, à quelques go&ucirc;ts, à quelques inflexions, disons des 'biographèmes' dont la distinction et la mobilité pourraient voyager hors de tout destin et venir toucher, à la manière des atomes épicuriens, quelque corps futur, promis à la même dispersion ; une vie 'trouée', en somme.",
+      "Si j'étais écrivain et mort, comme j'aimerais que ma vie se réduis&icirc;t, par les soins d'un biographe amical et désinvolte, à quelques détails, à quelques goûts, à quelques inflexions, disons des 'biographèmes' dont la distinction et la mobilité pourraient voyager hors de tout destin et venir toucher, à la manière des atomes épicuriens, quelque corps futur, promis à la même dispersion ; une vie 'trouée', en somme.",
     author: "Roland Barthes",
   },
   {
@@ -335,7 +335,7 @@ const quotes = [
   },
   {
     quote:
-      "Je dois beaucoup à mes pieds: sans eux que d'idées, de sensations, de réflexions, que de plans et de résolutions ne me seraient pas venus;je leur dois mes jouissances les plus complètes et les plus pures. Sans eux je n'aurais jamais go&ucirc;té le sentiment de l'indépendance, tel que je le connais.",
+      "Je dois beaucoup à mes pieds: sans eux que d'idées, de sensations, de réflexions, que de plans et de résolutions ne me seraient pas venus;je leur dois mes jouissances les plus complètes et les plus pures. Sans eux je n'aurais jamais goûté le sentiment de l'indépendance, tel que je le connais.",
     author: "Gotthilf Theodor von Faber",
   },
   {
@@ -426,7 +426,7 @@ const quotes = [
   },
   {
     quote:
-      "Je n'avais pas vraiment survécu Je n'étais pas s&ucirc;r d'être un vrai survivant. J'avais traversé la mort, elle avait été une expérience de ma vie.",
+      "Je n'avais pas vraiment survécu Je n'étais pas sûr d'être un vrai survivant. J'avais traversé la mort, elle avait été une expérience de ma vie.",
     author: "Jorge Semprun",
   },
   {
@@ -640,7 +640,7 @@ const quotes = [
   },
   {
     quote:
-      "Le vertige, c'est autre chose que la peur de tomber. C'est la voix du vide au-dessous de nous qui nous attire et nous envo&ucirc;te, le désir de chute dont nous nous défendons ensuite avec effroi. Avoir le vertige c'est être ivre de sa propre faiblesse. On a conscience de sa faiblesse et on ne veut pas lui résister, mais s'y abandonner. On se so&ucirc;le de sa propre faiblesse, on veut être plus faible encore, on veut s'écrouler en pleine rue aux yeux de tous, on veut être ã terre, encore plus bas que terre.",
+      "Le vertige, c'est autre chose que la peur de tomber. C'est la voix du vide au-dessous de nous qui nous attire et nous envoûte, le désir de chute dont nous nous défendons ensuite avec effroi. Avoir le vertige c'est être ivre de sa propre faiblesse. On a conscience de sa faiblesse et on ne veut pas lui résister, mais s'y abandonner. On se soûle de sa propre faiblesse, on veut être plus faible encore, on veut s'écrouler en pleine rue aux yeux de tous, on veut être ã terre, encore plus bas que terre.",
     author: "Milan Kundera",
   },
   {

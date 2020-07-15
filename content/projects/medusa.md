@@ -1,4 +1,4 @@
-title: Medusa 
+title: Prise de Tête 
 created: 2019
 image_directory: 'medusa'
 materials: various colors of goatskin suede, silk covered steel wire, neodymium magnets, kozo and various decorative papers, linen and silk thread, metal rod and pedestal. 

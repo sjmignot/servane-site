@@ -70,5 +70,8 @@
 	<img class="project__image" src=/{{image}} alt="image {{loopindex}} for project.title"/>
 {% endfor %}
 </section>
+<div class="return-arrow__wrapper">
+	<a class="return-arrow__link"href="/gallery#{{project.created if project.created|int > 2016 else 'archive'}}"><span class="return-arrow">&larr;</span> Back to Projects</a>
+</div>
 
 {% endblock %}
