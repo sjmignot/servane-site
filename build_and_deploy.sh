@@ -1,14 +1,20 @@
-echo 'SAVING CHANGES'
-echo '#############'
+echo '############################'
+echo '#     SAVING CHANGES       #'
+echo '############################'
+git add .
 git commit -m"changes made to site"
 git push
 
-echo 'BUILDING SITE'
-echo '#############'
+echo '#########################'
+echo '# 	BUILDING SITE     #'
+echo '#########################'
 yarn build
+rm -r build
 cd ../servanebriand.github.io
 
-echo 'COMMITTING CHANGES TO GITHUB'
-echo '#############'
+echo '############################'
+echo '#     DEPLOYING SITE       #'
+echo '############################'
+git add .
 git commit -m"new version deployed"
 git push
