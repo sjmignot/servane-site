@@ -10,11 +10,15 @@
 const quotes = [
   {
     quote: "I am what I am not yet",
+    author: "Maxine Greene"
+  },
+  {
+    quote: "I am what I am not yet",
     author: "Maxine Greene",
   },
   {
     quote:
-      "Del Sur, del Este, del Oeste, del Norte, convergen los caminos que me han traído a mi secreto centro...\n Pronto sabré; quién soy.",
+      "Del Sur, del Este, del Oeste, del Norte, convergen los caminos que me han traído a mi secreto centro...<br> Pronto sabré; quién soy.",
     author: "Jorge Luis Borges",
   },
   {
@@ -29,12 +33,12 @@ const quotes = [
   },
   {
     quote:
-      "Vivez, si m'en croyez, n'attendez à demain:\n Cueillez dès aujourd'hui les roses de la vie.",
+      "Vivez, si m'en croyez, n'attendez à demain:<br> Cueillez dès aujourd'hui les roses de la vie.",
     author: "Pierre de Ronsard",
   },
   {
     quote:
-      "Notre Père qui êtes aux cieux\nRestez-y\nEt nous nous resterons sur la terrre\nQui est quelquefois si jolie\n",
+      "Notre Père qui êtes aux cieux<br>Restez-y<br>Et nous nous resterons sur la terrre<br>Qui est quelquefois si jolie<br>",
     author: "Jacques Prévert",
   },
   {
@@ -77,12 +81,12 @@ const quotes = [
   },
   {
     quote:
-      "Recuerde el alma dormida\navive el seso y despierte\ncontemplando\ncómo se pasa la vida,\ncómo se viene la muerte\ntan callando.",
+      "Recuerde el alma dormida<br>avive el seso y despierte<br>contemplando<br>cómo se pasa la vida,<br>cómo se viene la muerte<br>tan callando.",
     author: "Jorge Manrique",
   },
   {
     quote:
-      "Nuestras vidas son los ríos\nque van a dar en la mar,\nque es el morir",
+      "Nuestras vidas son los ríos<br>que van a dar en la mar,<br>que es el morir",
     author: "Jorge Manrique",
   },
   {
@@ -92,7 +96,7 @@ const quotes = [
   },
   {
     quote:
-      "Life's but a walking shadow, a poor player\nThat struts and frets his hour upon the stage\nAnd then is heard no more. It is a tale\nTold by an idiot, full of sound and fury,\nSignifying nothing.<",
+      "Life's but a walking shadow, a poor player<br>That struts and frets his hour upon the stage<br>And then is heard no more. It is a tale<br>Told by an idiot, full of sound and fury,<br>Signifying nothing.<",
     author: "William Shakespeare",
   },
   {
@@ -135,7 +139,7 @@ const quotes = [
   },
   {
     quote:
-      "Meglio astenersi dal governare il destino degli altri, dal momento\nche è già difficile ed incerto pilotare il proprio.",
+      "Meglio astenersi dal governare il destino degli altri, dal momento<br>che è già difficile ed incerto pilotare il proprio.",
     author: "Primo Levi",
   },
   {
@@ -283,21 +287,21 @@ const quotes = [
   },
   {
     quote:
-      "Le monde ancien ne peut me toucher je suis libre\nJe ne suis pas un fils de roi je suis un homme\nDebout qu'on a voulu abattre",
+      "Le monde ancien ne peut me toucher je suis libre<br>Je ne suis pas un fils de roi je suis un homme<br>Debout qu'on a voulu abattre",
     author: "Paul Eluard",
   },
   {
     quote:
-      "Je ne vois clair et je ne suis intelligible\nQue si l'amour m'apporte le pollen d'autrui\nJe m'enivre au soleil de la présence humaine\nJe m'anime marée de tous ses éléments",
+      "Je ne vois clair et je ne suis intelligible<br>Que si l'amour m'apporte le pollen d'autrui<br>Je m'énivre au soleil de la présence humaineJe m'anime marée de tous ses éléments",
     author: "Paul Eluard",
   },
   {
-    quote: "vous aimeriez éperdument\nsi vous aimiez",
+    quote: "vous aimeriez éperdument<br>si vous aimiez",
     author: "Charles Trenet",
   },
   {
     quote:
-      "L'idée que l'on peut se faire en secret de la poésie ne limite pas forcément à celle-ci. Mais comme les rêves inavouables elle risque de causer des troubles de mémoire et d'empêcher la formation régulière d'un monde supérieur à celui où l'oubli est utile à la conservation prudente de l'individu.\nIl faut effacer le reflet de la personnalité pour que l'inspiration bondisse à tout jamais du miroir. Laissez les influences jouer librement, inventez ce qui a déjà été inventé, ce qui est hors de doute, ce qui est incroyable, donnez à la spontanéité sa valeur pure. Soyez celui à qui l'on parle et qui est entendu. Une seule vision, variée à l'infini.\nLe poète est celui qui inspire bien plus que celui qui est inspiré.",
+      "L'idée que l'on peut se faire en secret de la poésie ne limite pas forcément à celle-ci. Mais comme les rêves inavouables elle risque de causer des troubles de mémoire et d'empêcher la formation régulière d'un monde supérieur à celui où l'oubli est utile à la conservation prudente de l'individu.<br>Il faut effacer le reflet de la personnalité pour que l'inspiration bondisse à tout jamais du miroir. Laissez les influences jouer librement, inventez ce qui a déjà été inventé, ce qui est hors de doute, ce qui est incroyable, donnez à la spontanéité sa valeur pure. Soyez celui à qui l'on parle et qui est entendu. Une seule vision, variée à l'infini.<br>Le poète est celui qui inspire bien plus que celui qui est inspiré.",
     author: "Paul Eluard",
   },
   {
@@ -392,7 +396,7 @@ const quotes = [
   },
   {
     quote:
-      "C'est une chose étrange à la fin que le monde\nUn jour je m'en irai sans en avoir tout dit\nCes moments de bonheur ces midis d'incendie....",
+      "C'est une chose étrange à la fin que le monde<br>Un jour je m'en irai sans en avoir tout dit<br>Ces moments de bonheur ces midis d'incendie....",
     author: "Louis Aragon",
   },
   {
@@ -421,7 +425,7 @@ const quotes = [
   },
   {
     quote:
-      "Mary had a little lamb, its fleece electrostatic\nAnd everywhere Mary went, the lights became erratic.",
+      "Mary had a little lamb, its fleece electrostatic<br>And everywhere Mary went, the lights became erratic.",
     author: "David Foster Wallace",
   },
   {
@@ -496,7 +500,7 @@ const quotes = [
   },
   {
     quote:
-      "L'ouvrage d'un regard d'heure en heure affaibli\nn'est pas plus de rêver que de former des pleurs,\nmais de veiller comme un berger et d'appeler\ntout ce qui risque de se perdre s'il s'endort.\n...\nTel est le monde.\nNous ne le voyons pas très longtemps : juste assez\npour en garder ce qui scintille et va s'éteindre\npour appeler encore et encore, et trembler de ne plus voir.",
+      "L'ouvrage d'un regard d'heure en heure affaibli<br>n'est pas plus de rêver que de former des pleurs,<br>mais de veiller comme un berger et d'appeler<br>tout ce qui risque de se perdre s'il s'endort.<br>...<br>Tel est le monde.<br>Nous ne le voyons pas très longtemps : juste assez<br>pour en garder ce qui scintille et va s'éteindre<br>pour appeler encore et encore, et trembler de ne plus voir.",
     author: "Philippe Jaccottet",
   },
   {
@@ -506,7 +510,7 @@ const quotes = [
   },
   {
     quote:
-      "Qu'est que le regard?\nun dard plus aigu que la langue\nla course d'un excès à l'autre\ndu plus profond au plus lointain\ndu plus sombre au plus pur\nun rapace",
+      "Qu'est que le regard?<br>un dard plus aigu que la langue<br>la course d'un excès à l'autre<br>du plus profond au plus lointain<br>du plus sombre au plus pur<br>un rapace",
     author: "Philippe Jaccottet",
   },
   {
@@ -530,12 +534,12 @@ const quotes = [
   },
   {
     quote:
-      "Le mystère des portes\nOn franchit l'émotion qui barre le chemin\nEt sans se retourner on va toujours plus loin\nLa maison ne suit pas\nLa maison nous regarde",
+      "Le mystère des portes<br>On franchit l'émotion qui barre le chemin<br>Et sans se retourner on va toujours plus loin<br>La maison ne suit pas<br>La maison nous regarde",
     author: "Pierre Reverdy",
   },
   {
     quote:
-      "...un fleuve distrait\nest sorti de son lit, un tyran s'est levé\nhirsute, ou c'est l'ombre d'un nuage \nqui change tout à coup l'écriture du monde,\net l'enfant qui rêvait dans la poudreuse\ncomplicité des livres ne trouve plus\nle chemin tracé où la vie se lit\ncomme les lignes de la main...",
+      "...un fleuve distrait<br>est sorti de son lit, un tyran s'est levé<br>hirsute, ou c'est l'ombre d'un nuage <br>qui change tout à coup l'écriture du monde,<br>et l'enfant qui rêvait dans la poudreuse<br>complicité des livres ne trouve plus<br>le chemin tracé où la vie se lit<br>comme les lignes de la main...",
     author: "Guy Goffette",
   },
   {
@@ -549,7 +553,7 @@ const quotes = [
     author: "Mircea Eliade",
   },
   {
-    quote: "Sans doute riez-vous du rêveur\nQui voyait des fleurs en hiver",
+    quote: "Sans doute riez-vous du rêveur<br>Qui voyait des fleurs en hiver",
     author: "Wilhelm Müller",
   },
   {
@@ -659,7 +663,7 @@ const quotes = [
   },
   {
     quote:
-      "À certains moments\nce qui s'est perdu\nest plus là\nque ce qui est\nlà",
+      "À certains moments<br>ce qui s'est perdu<br>est plus là<br>que ce qui est<br>là",
     author: "Antoine Emaz",
   },
   {
@@ -754,7 +758,7 @@ const quotes = [
   },
   {
     quote:
-      "remember you must live.\nremember you most love.\nremainder you mist leaf.",
+      "remember you must live.<br>remember you most love.<br>remainder you mist leaf.",
     author: "Ali Smith",
   },
   {
@@ -802,5 +806,5 @@ const quotes = [
 //declare variables
 let randValue = Math.floor(Math.random(1)*162);
 let quote = quotes[randValue];
-document.querySelector(".quote-text").textContent = quote['quote'];
-document.querySelector(".quote-author").textContent = quote['author'];
+document.querySelector(".quote-text").innerHTML = quote['quote'];
+document.querySelector(".quote-author").innerHTML = quote['author'];
