@@ -3,12 +3,12 @@
 
 {% block content %}
 <h1 class="print-page__title">{{prin.title}}</h1>
-<img class="print__image print__image--main" src="{{url_for('static', filename='img/prints/'+prin.image_directory+'/'+prin.image_directory+'.jpg')}}" alt="main image for {{prin.title}}" />
 <img 
 	class="print__image print__image--main"
 	alt="main image for {{prin.title}}" 
-	src="{{url_for('static', filename='img/prints/'+prin.image_directory+'/'+prin.image_directory+'.jpg')}}"
-	srcset="{{url_for('static', filename='img/prints/'+prin.image_directory+'/'+prin.image_directory+'.jpg')[:-4]}}-sm.jpg 480w, {{url_for('static', filename='img/prints/'+prin.image_directory+'/'+prin.image_directory+'.jpg')[:-4]}}-md.jpg 640w, {{url_for('static', filename='img/prints/'+prin.image_directory+'/'+prin.image_directory+'.jpg')[:-4]}}-lg.jpg 1024w"
+	src="{{'/static/img/prints/'+prin.image_directory+'/1.jpg'}}"
+	srcset="{{'/static/img/prints/'+prin.image_directory+'/1-sm.jpg'}} 480w, {{'/static/img/prints/'+prin.image_directory+'/1-md.jpg'}} 640w, {{'/static/img/prints/'+prin.image_directory+'/1-lg.jpg'}} 1024w"
+	onerror="this.onerror=null;this.srcset=''" 
 />
 <div class="print__details"> 
 	{% if prin.process %}

@@ -8,6 +8,7 @@
 	alt="main image for {{project.title}}" 
 	src="/{{images[0]}}"
 	srcset="/{{images[0][:-4]}}-sm.jpg 480w, /{{images[0][:-4]}}-md.jpg 640w, /{{images[0][:-4]}}-lg.jpg 1024w"
+	onerror="this.onerror=null;this.srcset=''" 
 />
 
 <div class="project-content__wrapper">
@@ -78,6 +79,8 @@
 	alt="image {{loop.index}} for {{project.title}}" 
 	src="/{{image}}"
 	srcset="/{{image[:-4]}}-sm.jpg 480w, /{{image[:-4]}}-md.jpg 640w, /{{image[:-4]}}-lg.jpg 1024w"
+	onerror="this.onerror=null;this.srcset=''" 
+
 />
 
 {% endfor %}
