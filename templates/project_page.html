@@ -3,7 +3,13 @@
 
 {% block content %}
 <h1 class="project__title">{{project.title}}</h1>
-<img class="project__image project__image--main" src="/{{images[0]}}" alt="main image for {{project.title}}" />
+<img 
+	class="project__image project__image--main"
+	alt="main image for {{project.title}}" 
+	src="/{{images[0]}}"
+	srcset="/{{images[0][:-4]}}-sm.jpg 480w, /{{images[0][:-4]}}-md.jpg 640w, /{{images[0][:-4]}}-lg.jpg 1024w"
+/>
+
 <div class="project-content__wrapper">
 <div class="project__details"> 
 	{% if project.binding %}
@@ -67,7 +73,13 @@
 </div> 
 <section id="images">
 {% for image in images[1:] %}
-	<img class="project__image" src=/{{image}} alt="image {{loopindex}} for project.title"/>
+<img 
+	class="project__image"
+	alt="image {{loop.index}} for {{project.title}}" 
+	src="/{{image}}"
+	srcset="/{{image[:-4]}}-sm.jpg 480w, /{{image[:-4]}}-md.jpg 640w, /{{image[:-4]}}-lg.jpg 1024w"
+/>
+
 {% endfor %}
 </section>
 <div class="return-arrow__wrapper">

@@ -13,34 +13,30 @@ gulp.task("css", function () {
 });
 
 gulp.task("images:thumbexhibits", () => {
-  const sizes = [
-    { width: 320, quality: 40, suffix: "sm" },
-    { width: 640, quality: 60, suffix: "md" },
-    { width: 1024, quality: 80, suffix: "lg" },
-  ];
   let stream;
-  sizes.forEach((size) => {
-    stream = gulp
-      .src([
+  stream = gulp
+    .src(
+      [
         "./static/img/prints/**/thumbnail.jpg",
         "./static/img/projects/**/thumbnail.jpg",
         "./static/img/exhibits/*.jpg",
-      ], {base: './static/img/'})
-      .pipe(imageResize({ width: 700 }))
-      .pipe(
-        imagemin(
-          [
-            imageminMozjpeg({
-              quality: 60,
-            }),
-          ],
-          {
-            verbose: true,
-          }
-        )
+      ],
+      { base: "./static/img/" }
+    )
+    .pipe(imageResize({ width: 700 }))
+    .pipe(
+      imagemin(
+        [
+          imageminMozjpeg({
+            quality: 60,
+          }),
+        ],
+        {
+          verbose: true,
+        }
       )
-      .pipe(gulp.dest("./build/static/img/"));
-  });
+    )
+    .pipe(gulp.dest("./build/static/img/"));
   return stream;
 });
 
@@ -53,12 +49,15 @@ gulp.task("images:projectprints", () => {
   let stream;
   sizes.forEach((size) => {
     stream = gulp
-      .src([
-        "./static/img/projects/**/*.jpg",
-        "./static/img/prints/**/*.jpg",
-        "!./static/img/prints/**/thumbnail.jpg",
-        "!./static/img/projects/**/thumbnail.jpg",
-      ], {base: './static/img'})
+      .src(
+        [
+          "./static/img/projects/**/*.jpg",
+          "./static/img/prints/**/*.jpg",
+          "!./static/img/prints/**/thumbnail.jpg",
+          "!./static/img/projects/**/thumbnail.jpg",
+        ],
+        { base: "./static/img" }
+      )
       .pipe(imageResize({ width: size.width }))
       .pipe(
         rename((path) => {
