@@ -22,10 +22,10 @@ gulp.task("images:thumbexhibits", () => {
   sizes.forEach((size) => {
     stream = gulp
       .src([
-        "static/img/prints/**/thumbnail.jpg",
-        "static/img/projects/**/thumbnail.jpg",
-        "static/img/exhibits/*.jpg",
-      ], {base: '.'})
+        "./static/img/prints/**/thumbnail.jpg",
+        "./static/img/projects/**/thumbnail.jpg",
+        "./static/img/exhibits/*.jpg",
+      ], {base: './static/img/'})
       .pipe(imageResize({ width: 700 }))
       .pipe(
         imagemin(
@@ -39,7 +39,7 @@ gulp.task("images:thumbexhibits", () => {
           }
         )
       )
-      .pipe(gulp.dest("build/static/img/"));
+      .pipe(gulp.dest("./build/static/img/"));
   });
   return stream;
 });
@@ -54,11 +54,11 @@ gulp.task("images:projectprints", () => {
   sizes.forEach((size) => {
     stream = gulp
       .src([
-        "static/img/projects/**/*.jpg",
-        "static/img/prints/**/*.jpg",
-        "!static/img/prints/**/thumbnail.jpg",
-        "!static/img/projects/**/thumbnail.jpg",
-      ], {base: '.'})
+        "./static/img/projects/**/*.jpg",
+        "./static/img/prints/**/*.jpg",
+        "!./static/img/prints/**/thumbnail.jpg",
+        "!./static/img/projects/**/thumbnail.jpg",
+      ], {base: './static/img'})
       .pipe(imageResize({ width: size.width }))
       .pipe(
         rename((path) => {
@@ -77,7 +77,7 @@ gulp.task("images:projectprints", () => {
           }
         )
       )
-      .pipe(gulp.dest("build/static/img/"));
+      .pipe(gulp.dest("./build/static/img/"));
   });
   return stream;
 });

@@ -8,7 +8,7 @@
   "scripts": {
     "test": "python3 app.py",
     "build": "python3 app.py build",
-    "postbuild": "cp -r build/* ../servanebriand.github.io"
+    "postbuild": "gulp css images:projectprints images:thumbexhibits && cp -r build/* ../servanebriand.github.io"
   },
   "dependencies": {
     "gulp": "^4.0.2",
