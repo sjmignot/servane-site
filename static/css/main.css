@@ -481,6 +481,12 @@ header {
 	color: var(--bg-clr);
 }
 
+.project-detail__sub-header {
+	color: var(--bg-clr);
+    font-weight: lighter;
+    font-size: smaller;
+}
+
 .project-detail, .print-detail{
 	font-size: .9rem;
 	font-family: var(--ff-second);

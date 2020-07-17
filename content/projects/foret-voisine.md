@@ -4,6 +4,7 @@ image_directory: 'foret-voisine'
 dimensions: 29.3 x 24 x 3.7cm
 materials: green-brown goatskin leather, laser etched design on back, front, spine, and doublures, graphite and charcoal hand drawing on top edge, edge-to-edge goatskin doublures, suede flyleaves, hand sewn silk endbands, leather onlay on back.
 artform: finebinding
+binding: Full leather binding
 finebinding: 
 - author: Maurice Genevoix
   illustrator: A. Beaufrère

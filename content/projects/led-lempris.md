@@ -1,12 +1,11 @@
 title: Lempris (LED)
 created: 2018
 image_directory: 'led-lempris'
+binding: pyramid box structure
 collaborators: 
 - name: Samuel Mignot
   contribution: 'Poem and Folding' 
   website: https://samuelmignot.com
-- name: Eric Joisel
-  contribution: 'Original Rat Structure'
 - name: Nick Leindecker
   contribution: LED design
 - name: Yonatan Maor

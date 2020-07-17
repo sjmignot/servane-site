@@ -16,20 +16,23 @@
 	{% if project.binding %}
 		<h2 class="project-detail__header"> Binding </h2>
 		<p class="project-detail"> {{project.binding}}</p>
-	{% endif %}
-	{%if project.materials %}
-		<h2 class="project-detail__header"> Materials </h2>
-		<p class="project-detail"> {{project.materials}}</p>
-	{% endif %}
-
-	{%if project.dimensions %}
-	<h2 class="project-detail__header"> Dimensions </h2>
-	<p class="project-detail"> {{project.dimensions}} </p>
-	{% endif %}
-
-	{% if project.edition%}
-	<h2 class="project-detail__header"> Edition </h2>
-	<p class="project-detail"> {{project.edition}} </p>
+		{% if project.finebinding %}
+			<h3 class="project-detail__sub-header"> details </h2>
+			<ul class="project-detail project-detail--list">
+			<li class="project-detail__list-item">
+				<b>author</b>: {{project.finebinding[0].author}}
+			</li>
+			<li class="project-detail__list-item">
+				<b>illustrator</b>: {{project.finebinding[0].illustrator}}
+			</li>
+			<li class="project-detail__list-item">
+				<b>press</b>: {{project.finebinding[0].press}}
+			</li>
+			<li class="project-detail__list-item">
+				<b>year</b>: {{project.finebinding[0].year}}
+			</li>
+			</ul>
+		{% endif %}
 	{% endif %}
 
 	{% if project.collaborators %}
@@ -46,26 +49,24 @@
 	{% endfor %}
 	</ul>
 	{% endif %}
+
+	{%if project.dimensions %}
+	<h2 class="project-detail__header"> Dimensions </h2>
+	<p class="project-detail"> {{project.dimensions}} </p>
+	{% endif %}
+
+	{% if project.edition%}
+	<h2 class="project-detail__header"> Edition </h2>
+	<p class="project-detail"> {{project.edition}} </p>
+	{% endif %}
+
 	{% if project.location %}
 	<h2 class="project-detail__header"> Location </h2>
 	<p class="project-detail"> {{project.location}} </p>
 	{% endif %} 
-	{% if project.finebinding %}
-		<h2 class="project-detail__header"> Finebinding</h2>
-		<ul class="project-detail project-detail--list">
-		<li class="project-detail__list-item">
-			<b>author</b>: {{project.finebinding[0].author}}
-		</li>
-		<li class="project-detail__list-item">
-			<b>illustrator</b>: {{project.finebinding[0].illustrator}}
-		</li>
-		<li class="project-detail__list-item">
-			<b>press</b>: {{project.finebinding[0].press}}
-		</li>
-		<li class="project-detail__list-item">
-			<b>year</b>: {{project.finebinding[0].year}}
-		</li>
-		</ul>
+	{%if project.materials %}
+		<h2 class="project-detail__header"> Materials </h2>
+		<p class="project-detail"> {{project.materials}}</p>
 	{% endif %}
 </div>
 <div class="project__description" />
