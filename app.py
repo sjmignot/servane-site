@@ -21,6 +21,7 @@ PRINTS_DIR = 'prints'
 
 app = Flask(__name__)
 app.config.from_object(__name__)
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 300
 flatpages = FlatPages(app)
 freezer = Freezer(app)
 
