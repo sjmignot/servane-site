@@ -292,7 +292,7 @@ const quotes = [
   },
   {
     quote:
-      "Je ne vois clair et je ne suis intelligible<br>Que si l'amour m'apporte le pollen d'autrui<br>Je m'énivre au soleil de la présence humaineJe m'anime marée de tous ses éléments",
+      "Je ne vois clair et je ne suis intelligible<br>Que si l'amour m'apporte le pollen d'autrui<br>Je m'énivre au soleil de la présence humaine<br>Je m'anime marée de tous ses éléments",
     author: "Paul Eluard",
   },
   {
