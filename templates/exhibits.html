@@ -7,7 +7,9 @@
 {% for exhibit in exhibits %}
     <div class="event-list__event">
 		<div class="event__image-wrapper">
+			<a class="event__link" href="{{ exhibit.event_link }}" target="_blank">
 			<img alt="image of {{exhibit.title}}" class="event__image" src="{{ url_for('static', filename='img/exhibits/'+exhibit.event_image) }}" />
+			</a>
 			<div class="event-image__date">
 				<p class="event-date__month-start"> {{dates[loop.index0][0].strftime("%b")}}</p>
 				<p class="event-date__day-start"> {{dates[loop.index0][0].strftime("%d")}}</p>
