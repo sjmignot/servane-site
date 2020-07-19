@@ -1,7 +1,7 @@
 title: πr2 
 created: 2015
 image_directory: 'pi-r-2'
-binding: Briand's rivet binding
+binding: Rivet binding (invented by artist)
 materials: book cloth, leather, decorative paper, neodymium magnets, beeswax and pigment on recycled prints
 dimensions: "Box Diameter: 9 cm, Height: 8 cm. Book Diameter:  7.5 cm, Height: 4cm."
 edition: EV of 3

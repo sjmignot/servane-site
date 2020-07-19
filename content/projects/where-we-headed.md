@@ -1,7 +1,7 @@
 title: Where We Headed¿ 
 created: 2015
 image_directory: 'where-we-headed'
-binding: case binding
+binding: Case binding
 materials: archival digital prints on mohawk superfine text from original collages on watercolor background
 edition: Open edition
 dimensions: 18 x 10 x 1.5 cm

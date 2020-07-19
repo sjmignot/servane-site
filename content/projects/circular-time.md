@@ -1,5 +1,6 @@
 title: Circular Time 
 created: 2013
+binding: Rivet (invented by artist)
 image_directory: 'circular-time'
 materials: handmade paper, archival digital prints from photography and drawings, beeswax, rivets.
 dimensions: 3 x 13 cm

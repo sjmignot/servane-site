@@ -1,7 +1,8 @@
 title: Lempris
 created: 2017
 image_directory: 'square-lempris'
-materials: Kozo and Anna Amalia paper, sensuede, Archival digital inks, Sennelier, Charbonnel and Herbin inks, beeswax, neodymium magnets, book board, silk ribbon
+binding: pyramid box structure
+materials: kozo and Anna Amalia paper, sensuede, archival digital inks, Sennelier, Charbonnel and Herbin inks, beeswax, neodymium magnets, book board, silk ribbon.
 dimensions: 27 x 15 x 15 cm
 edition: "#3, #4 & #5 in EV of 7"
 

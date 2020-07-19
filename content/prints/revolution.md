@@ -2,7 +2,7 @@ title: rEvolution
 created: 2015
 image_directory: revolution 
 dimensions: 25 x 17 cm
-process: Solar etching.
+process: Solar etching
 edition: EV of 15
 
 

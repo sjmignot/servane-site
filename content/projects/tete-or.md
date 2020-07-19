@@ -1,6 +1,7 @@
 title: Tête Or 
 created: 2018
 image_directory: 'tete-or'
+binding: Tue-Mouche (invented by Ben Elbel)
 dimensions: 12 x 12 x 3 cm
 finebinding: 
 - author: Morina Mongin

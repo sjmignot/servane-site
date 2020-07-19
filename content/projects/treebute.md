@@ -1,6 +1,7 @@
 title: TreeBute 
 created: 2013
 image_directory: 'treebute'
+binding: Portfolio box
 dimensions: 26.7 x 20.3 x 2.5 cm
 materials: archival board, balsa wood, sensuede, lokta paper, neodymium magnents, archival digital prints on Epson Cold Press paper.
 edition: EV of 3

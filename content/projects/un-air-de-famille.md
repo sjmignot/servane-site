@@ -1,9 +1,10 @@
 title: Un Air de Famille 
 created: 2018
 image_directory: 'un-air-de-famille'
+binding: Rivet binding (invented by artist)
 dimensions: 26.5 x 26.5 x 5 cm
 materials: digital prints on Epson Cold press, beeswax, rivets, balsa wood, Lotka paper, sensuede, binders’ board, silver foil detail on box.
-binding: Briand’s rivet binding
+edition: open
 
 A square box with rounded corners that contains nine books made of digitally printed photos, coated with beeswax and assembled with rivets. Some photos are ancient and date back to the late 19th century. All have been reworked digitally. 
 

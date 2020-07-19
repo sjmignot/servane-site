@@ -1,8 +1,9 @@
 title: Correspondances 
 created: 2013
 image_directory: 'correspondances'
+binding: folding and encaustic
 dimensions: 53 x 53 x 41 cm
-materials: process Photography, encaustic, folding
+materials: archival digital printing, beeswax
 edition: 1 of 1
 
 Inspired by long walks among the trees of Palo Alto and the Stanford campus and [the poetry of Charles Baudelaire](https://fleursdumal.org/poem/103). 

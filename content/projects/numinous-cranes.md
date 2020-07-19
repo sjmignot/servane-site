@@ -1,6 +1,9 @@
 title: Numinous Cranes 
 created: 2014
 image_directory: 'numinous-cranes'
+binding: Altered book
+materials: Biblia sacra Vulgatae editionis - 1828 -  vol. 1, 2 and 7, awagami kozo paper, archival digital printing, beeswax.
+dimensions: 43 x 31 x 15 cm
 edition: 1 of 1
 location: University of Texas, Rare Book Collection
 

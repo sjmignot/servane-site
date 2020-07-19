@@ -1,10 +1,10 @@
 title: Les Bicyclettes Font la Chaîne
 created: 2015
 image_directory: 'bicycles'
+biding: Rivet binding (invented by artist)
 dimensions: open - 59 X 18 cm, closed - 19 x 5.7 cm
-materials: hand made abaca paper, custom round box with decorative paper
+materials: hand made abaca paper, archival digital inks, custom round box with decorative paper, rivets.
 edition: EV of 3
-binding: Briand's rivet binding
 
 I have always felt there was some resemblance between dogs and bicycles that wait, attached to a post, for their human companions. There is within their expectancy something mysterious that I tried to capture in this book. These bicycles both real and rooted in my imagination form a chain that give them, maybe, an opportunity to escape their terrestrial ties.
 

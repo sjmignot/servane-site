@@ -1,8 +1,10 @@
 title: Prise de Tête 
 created: 2019
 image_directory: 'medusa'
-materials: various colors of goatskin suede, silk covered steel wire, neodymium magnets, kozo and various decorative papers, linen and silk thread, metal rod and pedestal. 
+binding: multiple bindings
 dimensions: 50 x 50 x 45 cm
+materials: various colors of goatskin suede, silk covered steel wire, neodymium magnets, kozo and various decorative papers, linen and silk thread, metal rod, and pedestal. 
+edition: EV of 2
 
 From metaphors to metamorphoses, the idea-birds are transformed into mini story books emerging from the head of a benevolent Medusa who dreams, whose snakes are silky eels and whose gaze is an invitation to reading and binding.
 

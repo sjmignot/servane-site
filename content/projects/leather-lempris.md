@@ -1,6 +1,7 @@
 title: Lempris (leather)
 created: 2017
 image_directory: 'leather-lempris'
+binding: pyramid box structure
 dimensions: 23 x 12 x 12 cm
 materials: grey goatskin, laser etching, gold tooling details, archival digital printing and stencil on kozo, decorative paper by the artist, beeswax. 
 edition: "#2 in EV of 7"

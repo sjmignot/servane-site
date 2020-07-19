@@ -19,18 +19,27 @@
 		{% if project.finebinding %}
 			<h3 class="project-detail__sub-header"> details </h2>
 			<ul class="project-detail project-detail--list">
+			{% if project.finebinding[0].author%}
 			<li class="project-detail__list-item">
 				<b>author</b>: {{project.finebinding[0].author}}
 			</li>
+			{% endif %}
+			{% if project.finebinding[0].illustrator %}
 			<li class="project-detail__list-item">
 				<b>illustrator</b>: {{project.finebinding[0].illustrator}}
 			</li>
+			{% endif %}
+
+			{% if project.finebinding[0].press %}
 			<li class="project-detail__list-item">
 				<b>press</b>: {{project.finebinding[0].press}}
 			</li>
+			{% endif %}
+			{% if project.finebinding[0].year %}
 			<li class="project-detail__list-item">
 				<b>year</b>: {{project.finebinding[0].year}}
 			</li>
+			{% endif %}
 			</ul>
 		{% endif %}
 	{% endif %}
@@ -59,15 +68,14 @@
 	<h2 class="project-detail__header"> Edition </h2>
 	<p class="project-detail"> {{project.edition}} </p>
 	{% endif %}
-
-	{% if project.location %}
-	<h2 class="project-detail__header"> Location </h2>
-	<p class="project-detail"> {{project.location}} </p>
-	{% endif %} 
 	{%if project.materials %}
 		<h2 class="project-detail__header"> Materials </h2>
 		<p class="project-detail"> {{project.materials}}</p>
 	{% endif %}
+	{% if project.location %}
+	<h2 class="project-detail__header"> Location </h2>
+	<p class="project-detail"> {{project.location}} </p>
+	{% endif %} 
 </div>
 <div class="project__description" />
 		{{project.html|safe}}

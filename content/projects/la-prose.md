@@ -1,6 +1,7 @@
 title: La Prose du Transsibérien
 created: 2019
 image_directory: 'la-prose'
+binding: Accordion, inset LED in leather covered boards
 dimensions: 36.7 x 9.7 x 3 cm
 materials: goatskin leather, wood veneer, kozo and abaca paper, beeswax, embroidery thread, LED board.
 collaborators: 
