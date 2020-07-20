@@ -1,7 +1,7 @@
 title: Qui a Sommeil 
 created: 2018
 image_directory: 'qui-a-sommeil'
-binding: Japanese stab
+binding: Japanese stab, model A box (invented by Eleanore Ramsey)
 dimensions: 15.25 x 11.5 x 2.5 cm (per box)
 materials: recycled tea bags, various inks, silk ribbons, decorative paper,  sensuede, and neodymium magnets. 
 edition: 1 of 1
