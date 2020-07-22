@@ -693,6 +693,7 @@ a.project-detail__collab-name, a.print-detail__collab-name {
 .banner__wrapper {
 	width: 100%;
     margin-top: min(6rem, 10vw); 
+	margin-bottom: min(6rem, 10vw);
 }
 
 .banner__grid {
@@ -736,31 +737,6 @@ a.project-detail__collab-name, a.print-detail__collab-name {
   	opacity:0; 
 	filter: blur(1rem)
   }
-}
-
-.categories {
-	display: flex;
-	justify-content: space-evenly;
-	margin-bottom: 6rem;
-	flex-wrap: wrap;
-}
-
-.category__link {
-	color: rgba(0,0,0,.7);
-	font-family: var(--ff-base);
-	text-transform: uppercase;
-	font-size: large;
-	letter-spacing: 3px;
-	margin: auto;
-	text-decoration: underline;
-	text-decoration-color: transparent;
-	transition: text-decoration-color 300ms ease-in,
-				color 300ms ease-in;
-}
-
-.category__link:hover {
-	text-decoration-color: var(--link-clr); 
-	color: var(--link-clr);
 }
 
 .index-page__divider {
