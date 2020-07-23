@@ -3,6 +3,7 @@ from flask_flatpages import FlatPages
 from datetime import datetime
 from itertools import groupby
 from flask_frozen import Freezer
+from pytz import timezone
 import os
 import sys
 
