@@ -1,7 +1,6 @@
 from flask import Flask, render_template, redirect, url_for
 from flask_flatpages import FlatPages
 from datetime import datetime
-from pytz import timezone
 from itertools import groupby
 from flask_frozen import Freezer
 import os
