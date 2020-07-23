@@ -4,6 +4,7 @@ cd "$parent_path"
 echo '############################'
 echo '#     SAVING CHANGES       #'
 echo '############################'
+git pull
 git add .
 git commit -m"changes made to site"
 git push
