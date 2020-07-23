@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",
+    "autoprefixer": "^9.8.5",
     "gulp": "^4.0.2",
     "gulp-image-resize": "^0.13.1",
     "gulp-imagemin": "^7.1.0",
