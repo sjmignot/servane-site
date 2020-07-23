@@ -316,6 +316,12 @@ header {
   visibility: hidden;
 }
 
+@media (max-width: 600px) {
+	.event-date__date-end {
+    	font-size: .6rem;
+	}
+}
+
 /* Gallery Page */
 
 .image-grid {
@@ -686,7 +692,7 @@ a.project-detail__collab-name, a.print-detail__collab-name {
 /* Index Page */
 .banner__wrapper {
 	width: 100%;
-    margin-top: 6rem; 
+    margin-top: min(6rem, 10vw); 
 }
 
 .banner__grid {
@@ -743,7 +749,7 @@ a.project-detail__collab-name, a.print-detail__collab-name {
 	color: rgba(0,0,0,.7);
 	font-family: var(--ff-base);
 	text-transform: uppercase;
-	font-size: x-large;
+	font-size: large;
 	letter-spacing: 3px;
 	margin: auto;
 	text-decoration: underline;
