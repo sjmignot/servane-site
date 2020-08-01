@@ -10,10 +10,6 @@
 const quotes = [
   {
     quote: "I am what I am not yet",
-    author: "Maxine Greene"
-  },
-  {
-    quote: "I am what I am not yet",
     author: "Maxine Greene",
   },
   {
@@ -108,11 +104,6 @@ const quotes = [
     quote:
       "No one transcends. There is no future and no past. There is no remedy for death -or birth- except to hug the spaces in between. Live loud. Live wide. Live tall.",
     author: "Jim Crace",
-  },
-  {
-    quote:
-      "I believe filmmaking to be a collaborative medium. Rather than being a tyrant, I believe in getting ideas from as many sources as possible.",
-    author: "John Huston",
   },
   {
     quote:
