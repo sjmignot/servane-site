@@ -755,6 +755,8 @@ a.project-detail__collab-name, a.print-detail__collab-name {
 	font-style: italic;
 	line-height: 1.6;
 	margin: auto 0;
+	font-weight:600;
+	opacity:.7;
 }
 
 .quote-author {
