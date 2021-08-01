@@ -1,5 +1,5 @@
 title: Fils de la Vie - Threads of Life 
-created: 2020
+created: 2021
 image_directory: 'filsdelavie'
 binding: multiple bindings
 dimensions: 23 x 23 x23 cm closed
