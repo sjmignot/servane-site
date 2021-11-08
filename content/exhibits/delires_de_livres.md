@@ -1,6 +1,6 @@
 title: Délires de Livres - Double Je(u)
-start_date: 12-03-2022
-end_date: 10-04-2022
+start_date: 03-12-2022
+end_date: 04-10-2022
 event_link: http://www.am-arts.com
 event_image: delires_de_livres.jpg 
 location: Galerie L'Écu de France, Viroflay, France
