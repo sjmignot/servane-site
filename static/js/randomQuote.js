@@ -791,11 +791,18 @@ const quotes = [
       "Tout tableau ... et surtout tout portrait, se situe au confluent d'un rêve et d'une réalité",
     author: "Georges Perec",
   },
+
+   {
+    quote:
+      "Yo soy yo y mi circunstancia, y si no la salvo a ella no me salvo yo",
+    author: "José Ortega y Gasset",
+  },
+
 ];
 
 
 //declare variables
-let randValue = Math.floor(Math.random(1)*162);
+let randValue = Math.floor(Math.random(1)*quotes.length);
 let quote = quotes[randValue];
 document.querySelector(".quote-text").innerHTML = quote['quote'];
 document.querySelector(".quote-author").innerHTML = quote['author'];
