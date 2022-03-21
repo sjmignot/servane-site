@@ -5,7 +5,7 @@ binding: Accordion, case binding, portfolio box
 collaborators: 
 - name: Paloma Lucas 
   website: https://www.palomalucasdesign.com
-dimensions: 33 x 11 x 2.75 cm 
+dimensions: 39.5 x 13 x 3.5 cm 
 materials: Book board, kozo, M. Hark and lotka papers, archival Epson inks, cotton and linen threads, beads, shells, binding board, neodymium magnets.
 edition: 5
 

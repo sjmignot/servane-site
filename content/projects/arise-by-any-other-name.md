@@ -6,7 +6,7 @@ collaborators:
 - name: Samuel Mignot
   contribution: writing and illustration
   website: https://samuelmignot.com
-dimensions: 6 x 16 x 81 cm closed
+dimensions: 84 x 15 x 5 cm closed
 materials: Book board, Arches paper and hand dyed hanji, linen thread, cord and tape, archival Epson and Herbin inks, neodymium magnets. 
 edition: 1 of 1
 
