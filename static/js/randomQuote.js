@@ -798,6 +798,29 @@ const quotes = [
     author: "José Ortega y Gasset",
   },
 
+   {
+    quote:
+      "J'ai reconnu le bonheur au bruit qu'il a fait en partant",
+    author: "Jacques Prévert",
+    },
+
+    {
+    quote:
+      "La poésie, c'est le plus joli surnom que l'on donne à la vie",
+    author: "Jacques Prévert",
+  },
+
+  {
+    quote:
+      "Y un día la Obra muere, como mueren todas las cosas, como se extinguirá el Sol y la Tierra, el Sistema Solar y la Galaxia y la más recóndita memoria de los hombres",
+    author: "Roberto Bolaño",
+  },
+  
+{
+    quote:
+      "“Now take a sheep,” the sergeant said. “What is a sheep, only millions of little bits of sheepness whirling around and doing intricate convolutions inside the sheep? What else is it but that?”",
+    author: "Flann O'Brien",
+  },
 ];
 
 
