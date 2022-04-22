@@ -456,6 +456,10 @@ header {
 	font-size: 1rem;
 }
 
+.project__description > p > a {
+	color:  var(--link-clr);
+}
+
 .project__details, .print__details {
 	background-color: #666666;
 	font-family: var(--ff-base);
