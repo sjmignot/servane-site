@@ -821,6 +821,18 @@ const quotes = [
       "“Now take a sheep,” the sergeant said. “What is a sheep, only millions of little bits of sheepness whirling around and doing intricate convolutions inside the sheep? What else is it but that?”",
     author: "Flann O'Brien",
   },
+
+  {
+    quote:
+    "L'avantage de l’amateur généraliste sur le spécialiste ou l’expert, c’est qu’il ne peut jamais se faire confiance, il doit toujours vérifier, il n’a aucune théorie à défendre, c’est un éternel débutant",
+    author: "Fabienne Raphoz",
+  },
+
+  {
+    quote:
+    "ce qu’on ne parvient pas à atteindre nous touche droit au cœur d’être pressenti"
+   author: "Marc Blanchet",
+  }, 
 ];
 
 
