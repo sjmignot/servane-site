@@ -833,6 +833,12 @@ const quotes = [
     "ce qu’on ne parvient pas à atteindre nous touche droit au cœur d’être pressenti",
    author: "Marc Blanchet",
   }, 
+
+  {
+    quote:
+    "La probabilité qu’un jour nous prenions notre envol n’est-elle pas négligeable?",
+author: "Aleš Šteger",
+  }, 
 ];
 
 
