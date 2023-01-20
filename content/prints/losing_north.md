@@ -5,8 +5,8 @@ dimensions: 43.2 x 38.1 cm
 process: Screenprinting
 edition: EV of 25
 
-Losing North is by Nancy Huston's book of the same title. 
+Losing North is inspired by Nancy Huston's 2002 book of the same title.
 
-Huston lives in France, having moved there from Canada when she was 20. One of the themes she explores is the feeling of in-betweenness and the complexities of navigating distinct cultural identities.
+Born in Canada, Huston moved to France when she was 20. She writes in French and self translates to English. One of the themes she explores is the feeling of in-betweenness and the complexities of navigating distinct cultural identities.
 
-In its deconstructive/reconstructive approach, screen printing was a very interesting process that also suggest the various layers of identities that come together to result in the final image.
+In its deconstructive/reconstructive approach, screen printing was a perfect process for that specific print. It mirrors the various layers of identities that come together to form the final image.
