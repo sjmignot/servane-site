@@ -5,6 +5,7 @@ binding: multiple bindings
 dimensions: 23 x 23 x23 cm closed
 materials: Book board, Mary Hark paper and Cave paper, kozo, abaca, Hahnemühle Ingres, cotton and silk threads, bone beads, magnets, digital inks, watercolor, beeswax 
 edition: EV of 3
+video: https://www.youtube.com/embed/nMGuZOwJ2fU
 
 Threads of Life interweaves the stories of the three Fates, the origin of life, genetics and the development of human communication. It explores our endless search for meaning through arts and sciences and the stories we tell ourselves.
 

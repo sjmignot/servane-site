@@ -15,6 +15,7 @@ collaborators:
 materials: walnut wood veneer, olive green natural goatskin, kozo paper, archival inks and watercolor, beeswax, LEDs.
 dimensions: 33 x 18 x 18 cm  
 edition: "#6 & #7 in EV of 7"
+video: https://www.youtube.com/embed/YbF1_yvSEPw
 
 Through its many iterations, Lempris came to encompass much of what makes Book Arts unique and innovative. It draws from multiple disciplines; and relies on a wide range of techniques, technologies, tools and materials, from the most ancient to the most modern. The beauty of such a rich medium is that it enables and invites collaboration with other artists and experts.
 

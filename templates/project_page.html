@@ -82,16 +82,18 @@
 </div>
 </div> 
 <section id="images">
-{% for image in images[1:] %}
-<img 
-	class="project__image"
-	alt="image {{loop.index}} for {{project.title}}" 
-	src="/{{image}}"
-	srcset="/{{image[:-4]}}-sm.jpg 480w, /{{image[:-4]}}-md.jpg 640w, /{{image[:-4]}}-lg.jpg 1024w"
-	onerror="this.onerror=null;this.srcset=''" 
+	{% if project.video %}
+	<iframe height="315" class="project__video" src="{{project.video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	{% endif %}
+	{% for image in images[1:] %}
+	<img 
+		class="project__image"
+		alt="image {{loop.index}} for {{project.title}}" 
+		src="/{{image}}"
+		srcset="/{{image[:-4]}}-sm.jpg 480w, /{{image[:-4]}}-md.jpg 640w, /{{image[:-4]}}-lg.jpg 1024w"
+		onerror="this.onerror=null;this.srcset=''" 
 
-/>
-
+	/>
 {% endfor %}
 </section>
 <div class="return-arrow__wrapper">
