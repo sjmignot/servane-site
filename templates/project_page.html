@@ -82,8 +82,8 @@
 </div>
 </div> 
 <section id="images">
-	{% if video %}
-	<iframe height="315" class="project__video" src="{{video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	{% if project.video %}
+	<iframe height="315" class="project__video" src="{{project.video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	{% endif %}
 	{% for image in images[1:] %}
 	<img 

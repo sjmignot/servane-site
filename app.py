@@ -83,7 +83,6 @@ def work_project(name):
         "project_page.html",
         project=proj,
         images=images[::-1],
-        video=proj["video"],
     )
 
 
@@ -108,7 +107,6 @@ def profile():
 def expos():
     DATE_FORMAT = "%m-%d-%Y"
     exhibits = get_expos()
-    print(exhibits)
     dates = [
         (
             datetime.strptime(exhibit["start_date"], DATE_FORMAT),
@@ -136,4 +134,4 @@ if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "build":
         freezer.freeze()
     else:
-        app.run(host='0.0.0.0', debug=True)
+        app.run(host="0.0.0.0", debug=True)
