@@ -5,6 +5,7 @@ biding: Rivet binding (invented by artist)
 dimensions: open - 59 X 18 cm, closed - 19 x 5.7 cm
 materials: hand made abaca paper, archival digital inks, custom round box with decorative paper, rivets.
 edition: EV of 3
+video: https://www.youtube.com/embed/mFo3PFzer5E
 
 Bicycles Form a Chain comes from an ongoing exploration of circular shapes and cycles. The book is bound but the lightness and transparency of the paper suggests a possible escape. Bicycles, like dogs, wait, attached to a post for their human companions. There is within their expectancy something mysterious and moving. These bicycles both real and rooted in my imagination form a chain that gives them, maybe, an opportunity to escape their terrestrial ties. 
 
