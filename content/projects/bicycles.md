@@ -1,7 +1,7 @@
 title: Les Bicyclettes Font la Chaîne
 created: 2015
 image_directory: 'bicycles'
-biding: Rivet binding (invented by artist)
+binding: Rivet binding (invented by artist)
 dimensions: open - 59 X 18 cm, closed - 19 x 5.7 cm
 materials: hand made abaca paper, archival digital inks, custom round box with decorative paper, rivets.
 edition: EV of 3

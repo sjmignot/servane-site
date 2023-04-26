@@ -9,6 +9,7 @@ collaborators:
   contribution: LED design
 - name: Yonatan Maor
   contribution: Laser etching support
+video: https://www.youtube.com/embed/WQXWsLwJz4k
 
 Fusion of text and colors, simultanéité, incredible rhythm and music, quasi cinematic effects transport the reader-viewer who embarks on this imaginary poetic voyage on the Transsibérien anchored in Paris. What could be more fun than doing another collaboration to bring “la fée électricité” and light into the artists’ book? 
 
