@@ -62,10 +62,6 @@ const quotes = [
     author: "Georges Perec",
   },
   {
-    quote: "I believe in getting into hot water; it keeps you clean.",
-    author: "G.K. Chesterton",
-  },
-  {
     quote:
       "The man who is aware of himself is henceforward independent; and he is never bored, and life is only too short, and he is steeped through and through with a profound yet temperate happiness. He alone lives, while other people, slaves of ceremony, let life slip past them in a kind of dream. Once conform, once do what other people do because they do it, and lethargy steals over all the finer nerves and faculties of the soul. She becomes all outer show and inward emptiness; dull, callous and indifferent.",
     author: "Virginia Woolf",
