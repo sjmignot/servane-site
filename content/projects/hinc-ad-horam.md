@@ -5,6 +5,7 @@ binding: Inspired by traditional Zhen Xian Bao structures, Japanese Shifu
 dimensions: 22 x 12 x3 cm closed
 materials: hanji (Samsik Kim), organic dyes and inks, eco dyed silk, velvet, archival digital inks, magnets
 edition: EV of 3
+video: https://youtube.com/embed/InXgzntkV9I
 
 Hinc Ad Horam, a book of metamorphoses, explores transformations and conversations that occur between humans and plants in the form of a Zhen Xian Bao structure.
 In Greek mythology and the book of Metamorphoses by Ovid, the world of humans and the world of plants have fluid borders. Women get transformed into trees, men into flowers, babies are born from a tree womb.
