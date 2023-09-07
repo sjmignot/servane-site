@@ -1,7 +1,7 @@
 title: The Book as Art Myth & Magic
 start_date: 09-07-2023
 end_date: 10-30-2023
-event_link: https://georgiacenterforthebook.org/ongoing-programs/the-book-as-art
+event_link: https://decaturartsalliance.org/book-as-art/
 event_image: book_art_decatur_23.jpg
 location: Decatur Arts Alliance, Decatur, Georgia
 

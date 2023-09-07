@@ -1,7 +1,7 @@
 title: The Book as Art Transformation
 start_date: 09-08-2022
 end_date: 10-31-2022
-event_link: https://decaturartsalliance.org/book-as-art-call-2022/
+event_link: https://decaturartsalliance.org/book-as-art-2022/
 event_image: book_art_decatur.jpg
 location: Decatur Arts Alliance, Decatur, Georgia
 
