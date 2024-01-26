@@ -1,5 +1,5 @@
 title: Arise by Any Other Name - The Serial
-created: 2022
+created: 2024
 image_directory: 'arise-serial'
 binding: pamphlet stitch, clamshell box
 collaborators: 
