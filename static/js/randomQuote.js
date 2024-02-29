@@ -554,7 +554,7 @@ const quotes = [
   },
   {
     quote:
-      "Questo è il tempio dell'intelletto. E io ne sono il sommo sacerdote. Siete voi che profanate il sacro recinto. Voi vincerete perché avete la forza bruta. Ma non convincerete. Perché, per convincere, bisogna persuadere. E per persuadere occorre proprio quello che a voi manca: ragione e diritto nella lotta. Io considero inutile esortarvi a pensare alla Spagna. Ho finito.",
+      "Este es el templo del intelecto y yo soy su supremo sacerdote. Vosotros estáis profanando su recinto sagrado. Diga lo que diga el proverbio, yo siempre he sido profeta en mi propio país. Venceréis, pero no convenceréis. Venceréis porque tenéis sobrada fuerza bruta, pero no convenceréis porque convencer significa persuadir. Y para persuadir necesitáis algo que os falta en esta lucha, razón y derecho. Me parece inútil pediros que penséis en España.",
     author: "Miguel de Unamuno",
   },
   {
