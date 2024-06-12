@@ -17,7 +17,7 @@ Second Box - *Lachesis*, she who measures the thread of life. The story centers 
 
 Third Box - *Atropos*, she who cuts the thread of life. Inspired by Samuel Morse who invented the telegraph after the death of his beloved wife, Lucretia, the book centers on the history of communications, the threads that connect us. The narrative tells the names of the three Fates in Morse code. The back image is an abstracted representation of a loom. 
 
-All the stories reference historical and mythological women who were weavers and makers and sometimes change the course of history, like the great Lucretia whose death gave birth to the Roman Republic.
+All the stories reference historical and mythological women who were weavers and makers and sometimes changed the course of history, like the great Lucretia whose death gave birth to the Roman Republic.
 
 Vertical Drawers from bottom to top:
 
