@@ -1,5 +1,5 @@
 title: Fiber Arts
-start_date: 05-28-2924
+start_date: 05-28-2024
 end_date: 06-27-2024
 event_link: https://www.ohanloncenter.org/exhibits/current/
 event_image: fiber_arts_1.jpg 
