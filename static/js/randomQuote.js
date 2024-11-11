@@ -303,7 +303,7 @@ const quotes = [
   },
   {
     quote:
-      "I would like to declare why I feel that it's now necessary to establish a new kind of art, able to show the problems of the whole society, of every living being, and how this new discipline, which I call social sculpture, can realize the future of humankind. It could be a guarantee for the evolution of the earth as a planet, establish conditions for other planetarians too, and you can control it with your own thinking. It could be a guarantee for the evolution of the earth as a planet, establish conditions for other planetarians too, and you can control it with your own thinking...Here my idea is to declare that art is the 'only' possibility for evolution, the only possibility to change the situation in the world. But then you have to enlarge the idea of art to include the whole creativity. And if you do that, it follows logically that every living being is an artist, an artist in the sense that he can develop his own capacity... And therefore, in short, I'm saying, all work that's done has to have the quality of art. We can see later about developing a proof for this by thinking about these problems. Here is a general structure to show what I means by a social sculpture...",
+      "I would like to declare why I feel that it's now necessary to establish a new kind of art, able to show the problems of the whole society, of every living being, and how this new discipline, which I call social sculpture, can realize the future of humankind. It could be a guarantee for the evolution of the earth as a planet, establish conditions for other planetarians too, and you can control it with your own thinking...Here my idea is to declare that art is the 'only' possibility for evolution, the only possibility to change the situation in the world. But then you have to enlarge the idea of art to include the whole creativity. And if you do that, it follows logically that every living being is an artist, an artist in the sense that he can develop his own capacity... And therefore, in short, I'm saying, all work that's done has to have the quality of art...",
     author: "Joseph Beuys",
   },
   {
@@ -835,6 +835,43 @@ const quotes = [
     "La probabilité qu’un jour nous prenions notre envol n’est-elle pas négligeable?",
 author: "Aleš Šteger",
   }, 
+
+  {
+    quote:
+    "A language is like an island constantly changing its shape, whose coastline is being washed by the incessantly approaching and breaking waves from many other languages",
+author: "Keijiro Suga",
+  },
+
+   {
+    quote:
+    "One keeps forgetting to go right down to the foundations. One doesn't put the question marks deep enough down",
+author: "Ludwig Wittgenstein",
+  },
+
+  {
+    quote:
+    "Au lieu de dire « Je vous montre les choses telles qu’elles sont », ne serait-il pas préférable de dire « Je vous montre comment je vois les choses. Mais elles pourraient être montrées d’une quantité d’autres façons ». Autrement dit, ce ne sont pas les choses telles qu’elles sont que je vous montre, mais mon regard tel qu’il est sur des choses que j’ai choisi de vous montrer. Ou encore, l’« objet » que je vous montre, c’est mon regard.",
+author: "Emmanuel Hocquard",
+  },
+
+  {
+    quote:
+    "Once, somebody asked Robert Schumann to explain the meaning of a certain piece of music he had just played on the piano. What Robert Schumann did was sit back down at the piano and play the piece of music again.", 
+    author: "David Markson",
+},
+
+{
+    quote:
+    "What is the world if not a place for imagination and astonishment", 
+    author: "Georges Schehadé",
+},
+
+{
+    quote:
+    "The more the words of others impressed him with their factual content, the more he felt he must wait for his own facts before being tempted into words.", 
+    author: "Louis Zukofsky",
+},
+
 ];
 
 
