@@ -2,7 +2,7 @@ title: Lowlands Away
 created: 2022
 image_directory: 'lowlands'
 dimensions: 26.3 x 19.5 x 1.3cm
-materials: 19th century stytle bookcloth, leather spine and endbands, suede flyleaves, colored edges, paste downs of bookcloth and Arches paper dyed with natural pigments, end sheets are handmade paper dyed and digitally printed, clamshell box with bookcloth and hand dyed hanji. 
+materials: 19th century style bookcloth, leather spine and endbands, suede flyleaves, colored edges, paste downs of bookcloth and Arches paper dyed with natural pigments, end sheets are handmade paper dyed and digitally printed, clamshell box with bookcloth and hand dyed hanji. 
 artform: finebinding
 binding: simplified binding (invented by Sün Evrard)
 finebinding: 

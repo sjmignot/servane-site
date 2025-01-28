@@ -3,7 +3,7 @@ created: 2024
 image_directory: 'botanikos-1'
 binding: Long stitch binding
 materials: handmade felt with merino wool and silk thread, handmade flax and abaca paper, hand dyed hanji, botanical prints, cotton thread
-dimensions: "each book is about 12x 8 x 2cm"
+dimensions: "each book is about 12 x 8 x 2 cm"
 edition: open
 
 I learned to make felt with my friend Annie, a botanist in Brittany who is also a poet and wonderful artist. When I visited her in 2023, we experimented printing on various mulberry papers. She does beautiful botanical prints on textile but we had no idea how it would work on paper. Back in California, I continued this journey. I print on hanji and kozo with local plants. I also color my papers with natural dyes. 
