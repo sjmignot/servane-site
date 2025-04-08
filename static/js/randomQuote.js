@@ -872,6 +872,17 @@ author: "Emmanuel Hocquard",
     author: "Louis Zukofsky",
 },
 
+{
+    quote:
+    "Sou um guardador de rebanhos.O rebanho é os meus pensamentos.E os meus pensamentos são todos sensações.", 
+    author: "Fernando Pessoa",
+},
+
+{
+    quote:
+    "La mémoire, c'est un mur effondré de souvenirs. Il faut retrouver le ciment pour, d'une scène dont il nous reste des bribes, construire un récit à la fois sincère et plausible. Ce n'est pas la vérité, mais c'est une tentative pour l'approcher.", 
+    author: "Hervé Le Tellier",
+},
 ];
 
 
