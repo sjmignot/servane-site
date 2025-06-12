@@ -6,19 +6,12 @@
   "author": "sjmignot <sjmignot@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "uv run app.py",
-    "build": "uv run app.py build",
-    "postbuild": "gulp css images:projectprints images:thumbexhibits" 
+    "test": "python3 app.py",
+    "build": "python3 app.py build",
+    "postbuild": "gulp css images:projectprints images:thumbexhibits && cp -r build/* ../servanebriand.github.io" 
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0",
-    "autoprefixer": "^9.8.5",
-    "cssnano": "^4.1.10",
     "gulp": "^4.0.2",
-    "gulp-image-resize": "^0.13.1",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-postcss": "^8.0.0",
-    "gulp-rename": "^2.0.0",
     "postcss": "^7.0.32"
   }
 }
