@@ -6,8 +6,8 @@
   "author": "sjmignot <sjmignot@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "python3 app.py",
-    "build": "python3 app.py build",
+    "test": "uv run ./app.py",
+    "build": "uv run ./app.py build",
     "postbuild": "gulp css images:projectprints images:thumbexhibits && cp -r build/* ../servanebriand.github.io" 
   },
   "dependencies": {
