@@ -13,8 +13,6 @@ echo '#########################'
 echo '# 	BUILDING SITE     #'
 echo '#########################'
 yarn build
-cp -r build/* ../servanebriand.github.io
-rm -r build
 cd ../servanebriand.github.io
 
 echo '############################'
