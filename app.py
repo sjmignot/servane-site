@@ -67,6 +67,13 @@ def work():
     return render_template("gallery.html", date_projects=date_projects, prints=prints)
 
 
+@app.route("/gallery/making_sense/gl<int:part_number>")
+def making_sense_audio(part_number: int):
+    if part_number < 1 or part_number > 12:
+        return "Not found", 404
+    return render_template("making_sense_audio.html", part_number=str(part_number))
+
+
 @app.route("/gallery/<name>/")
 def work_project(name):
     path = f"{PROJECT_DIR}/{name}"

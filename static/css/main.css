@@ -869,6 +869,11 @@ input, textarea {
 	background-color: var(--sc-clr);
 }
 
+.audio-player__wrapper {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
 /*---------------------*\
 | 3. Media Queries 
 \*-------------------- */

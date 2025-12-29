@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block description %} Servane Briand - Making Sense {% endblock %}
+
+{% block content %}
+<h1 class="print-page__title">Making Sense - Part {{ part_number }}</h1>
+
+<div class="audio-player__wrapper">
+    <audio controls class="audio-player">
+        <source src="{{ url_for('static', filename='audio/gl' + part_number + '.m4a') }}" type="audio/mp4">
+        Your browser does not support the audio element.
+    </audio>
+</div>
+
+<div class="return-arrow__wrapper">
+    <a class="return-arrow__link" href="/gallery/making_sense/"><span class="return-arrow">&larr;</span> Back to Making Sense</a>
+</div>
+{% endblock %}
