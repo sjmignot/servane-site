@@ -23,7 +23,7 @@ An audio project in twelve parts exploring themes of perception, understanding, 
 - [Part 6](/gallery/making_sense/gl6)
 - [Part 7](/gallery/making_sense/gl7)
 - [Part 8](/gallery/making_sense/gl8)
-- [Part 9](/gallery/making_sense/gl9)
+- [Part 9](/gallery/making_sense/gl9)"
 - [Part 10](/gallery/making_sense/gl10)
 - [Part 11](/gallery/making_sense/gl11)
 - [Part 12](/gallery/making_sense/gl12)
