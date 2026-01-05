@@ -67,7 +67,6 @@ Exposed spine coptic binding.
 One of a kind.
 2026 
 
-
 "*After Babel* aspires to reach philosophers of language, historians of ideas, scholars of poetics and the arts and of music, linguists, and, most obviously, translators. But it solicits the interest and pleasure of the general reader, of all those who love language, who experience language as formative of their humanity.  Above all, it addresses itself, in hope of response, to poets.  Which is to say to anyone who makes language live and who knows that the affair at Babel was both a disaster and—this being the etymology of the word ‘disaster’—a rain of stars upon man."
 
 George Steiner
