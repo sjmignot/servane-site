@@ -81,4 +81,4 @@ George Steiner
 - Pierre Vinclair - [La Boucle du Sens](/gallery/making_sense/gl8)
 - Guillaume Métayer - [Taste of Cherry](/gallery/making_sense/gl9)
 - Eugene Ostashevsky - [Ces Sons Sont Sans Sens](/gallery/making_sense/gl11)
-- Ottilie Mulzet - [Meanings](/gallery/making_sense/gl13)
+- Ottilie Mlzet - [Meanings](/gallery/making_sense/gl13)
