@@ -456,8 +456,16 @@ header {
 	font-size: 1rem;
 }
 
-.project__description > p > a {
-	color:  var(--link-clr);
+.project__description > p > a,
+.project__description p a,
+.project__description a,
+.project__description ul a,
+.project__description ol a,
+.project__description li a,
+.project__description > ul > li > a,
+.project__description > ol > li > a {
+	color:  var(--link-clr) !important;
+	text-decoration: underline !important;
 }
 
 .project__details, .print__details {

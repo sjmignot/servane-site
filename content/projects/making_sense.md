@@ -71,17 +71,14 @@ One of a kind.
 
 George Steiner
 
-## Audio Parts
+## Listen to the Passages
 
-- [Part 1](/gallery/making_sense/gl1)
-- [Part 2](/gallery/making_sense/gl2)
-- [Part 3](/gallery/making_sense/gl3)
-- [Part 4](/gallery/making_sense/gl4)
-- [Part 5](/gallery/making_sense/gl5)
-- [Part 6](/gallery/making_sense/gl6)
-- [Part 7](/gallery/making_sense/gl7)
-- [Part 8](/gallery/making_sense/gl8)
-- [Part 9](/gallery/making_sense/gl9)
-- [Part 10](/gallery/making_sense/gl10)
-- [Part 11](/gallery/making_sense/gl11)
-- [Part 12](/gallery/making_sense/gl12)
+- Marina Skalova - [De la Traduction d'un Poème](/gallery/making_sense/gl2)
+- Sabine Huynh - [YÁ'AASH](/gallery/making_sense/gl3)
+- Laura Cesarco Eglin - [Letting Words Come Inside Me](/gallery/making_sense/gl4)
+- Andreas Unterweger - [Reading Diary](/gallery/making_sense/gl6)
+- Forrest Gander - [Why Translation](/gallery/making_sense/gl7)
+- Pierre Vinclair - [La Boucle du Sens](/gallery/making_sense/gl8)
+- Guillaume Métayer - [Taste of Cherry](/gallery/making_sense/gl9)
+- Eugene Ostashevsky - [Ces Sons Sont Sans Sens](/gallery/making_sense/gl11)
+- Ottilie Mulzet - [Meanings](/gallery/making_sense/gl13)
