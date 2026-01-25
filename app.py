@@ -67,6 +67,75 @@ def work():
     return render_template("gallery.html", date_projects=date_projects, prints=prints)
 
 
+@app.route("/gallery/making_sense/gl<int:part_number>")
+def making_sense_audio(part_number: int):
+    if part_number < 1 or part_number > 13:
+        return "Not found", 404
+
+    # Mapping of part numbers to titles and authors
+    audio_info = {
+        2: {
+            "title": "De la Traduction d'un Poème",
+            "author": "Marina Skalova",
+            "website": "https://marinaskalova.net/"
+        },
+        3: {
+            "title": "YÁ'AASH",
+            "author": "Sabine Huynh",
+            "website": "https://sabinehuynh.com/"
+        },
+        4: {
+            "title": "Letting Words Come Inside Me",
+            "author": "Laura Cesarco Eglin",
+            "website": "https://www.lauracesarcoeglin.com/"
+        },
+        6: {
+            "title": "Reading Diary",
+            "author": "Andreas Unterweger",
+            "website": "https://andreasunterweger.wordpress.com/english/"
+        },
+        7: {
+            "title": "Why Translation",
+            "author": "Forrest Gander",
+            "website": "https://forrestgander.com/"
+        },
+        8: {
+            "title": "La Boucle du Sens",
+            "author": "Pierre Vinclair",
+            "website": "https://pierrevinclair.com/"
+        },
+        9: {
+            "title": "Taste of Cherry",
+            "author": "Guillaume Métayer",
+            "website": "https://cellf.cnrs.fr/membre/guillaume-metayer/"
+        },
+        11: {
+            "title": "Ces Sons Sont Sans Sens",
+            "author": "Eugene Ostashevsky",
+            "website": "https://en.wikipedia.org/wiki/Eugene_Ostashevsky"
+        },
+        13: {
+            "title": "Meanings",
+            "author": "Ottilie Mulzet",
+            "website": "https://www.ottiliemulzet.net/"
+        }
+    }
+
+    info = audio_info.get(part_number, {
+        "title": "Making Sense Audio",
+        "author": "Unknown Author",
+        "website": "#"
+    })
+
+    return render_template(
+        "making_sense_audio.html",
+        part_number=str(part_number),
+        title=info["title"],
+        author=info["author"],
+        website=info["website"]
+    )
+
+
 @app.route("/gallery/<name>/")
 def work_project(name):
     path = f"{PROJECT_DIR}/{name}"
