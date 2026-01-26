@@ -75,12 +75,12 @@ George Steiner
 
 ## Listen to the Passages
 
-- Marina Skalova - [De la Traduction d'un Poème](/gallery/making_sense/gl2)
-- Sabine Huynh - [YÁ'AASH](/gallery/making_sense/gl3)
-- Laura Cesarco Eglin - [Letting Words Come Inside Me](/gallery/making_sense/gl4)
-- Andreas Unterweger - [Reading Diary](/gallery/making_sense/gl6)
-- Forrest Gander - [Why Translation](/gallery/making_sense/gl7)
-- Pierre Vinclair - [La Boucle du Sens](/gallery/making_sense/gl8)
-- Guillaume Métayer - [Taste of Cherry](/gallery/making_sense/gl9)
-- Eugene Ostashevsky - [Ces Sons Sont Sans Sens](/gallery/making_sense/gl11)
-- Ottilie Mulzet - [Meanings](/gallery/making_sense/gl13)
+- Marina Skalova - [De la Traduction d'un Poème](/gallery/making_sense/gl2/)
+- Sabine Huynh - [YÁ'AASH](/gallery/making_sense/gl3/)
+- Laura Cesarco Eglin - [Letting Words Come Inside Me](/gallery/making_sense/gl4/)
+- Andreas Unterweger - [Reading Diary](/gallery/making_sense/gl6/)
+- Forrest Gander - [Why Translation](/gallery/making_sense/gl7/)
+- Pierre Vinclair - [La Boucle du Sens](/gallery/making_sense/gl8/)
+- Guillaume Métayer - [Taste of Cherry](/gallery/making_sense/gl9/)
+- Eugene Ostashevsky - [Ces Sons Sont Sans Sens](/gallery/making_sense/gl11/)
+- Ottilie Mulzet - [Meanings](/gallery/making_sense/gl13/)
