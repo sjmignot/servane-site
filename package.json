@@ -8,10 +8,11 @@
   "scripts": {
     "test": "uv run ./app.py",
     "build": "uv run ./app.py build",
-    "postbuild": "gulp css images:projectprints images:thumbexhibits && rsync -av --delete --exclude=.git build/ ../servanebriand.github.io/" 
+    "postbuild": "gulp css images:projectprints images:thumbexhibits && rsync -av --delete --exclude=.git build/ ../servanebriand.github.io/"
   },
   "dependencies": {
     "gulp": "^4.0.2",
+    "gulp-postcss": "^10.0.0",
     "postcss": "^7.0.32"
   }
 }
