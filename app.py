@@ -136,6 +136,15 @@ def making_sense_audio(part_number: int):
     )
 
 
+@freezer.register_generator
+def making_sense_audio_url_generator():
+    """Generate URLs for all Making Sense audio pages."""
+    # List all part numbers that have audio files
+    part_numbers = [2, 3, 4, 6, 7, 8, 9, 11, 13]
+    for part_number in part_numbers:
+        yield "making_sense_audio", {"part_number": part_number}
+
+
 @app.route("/gallery/<name>/")
 def work_project(name):
     path = f"{PROJECT_DIR}/{name}"
