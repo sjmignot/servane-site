@@ -75,7 +75,7 @@ George Steiner
 
 ## Listen to the Passages
 
-- Marina Skalova - [De la Traduction d'un Poème](/gallery/making_sense/gl2/)
+- Marina Skalova - [De la traduction d'un poème](/gallery/making_sense/gl2/)
 - Sabine Huynh - [YÁ'AASH](/gallery/making_sense/gl3/)
 - Laura Cesarco Eglin - [Letting Words Come Inside Me](/gallery/making_sense/gl4/)
 - Andreas Unterweger - [Reading Diary](/gallery/making_sense/gl6/)

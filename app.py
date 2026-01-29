@@ -75,7 +75,7 @@ def making_sense_audio(part_number: int):
     # Mapping of part numbers to titles and authors
     audio_info = {
         2: {
-            "title": "De la Traduction d'un Poème",
+            "title": "De la traduction d'un poème",
             "author": "Marina Skalova",
             "website": "https://marinaskalova.net/"
         },
