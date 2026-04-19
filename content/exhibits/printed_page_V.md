@@ -1,6 +1,6 @@
 title: Printed Page V
 start_date: 01-05-2026
-end_date: 04-09-2026
+end_date: 04-26-2026
 event_link: https://abecedariangallery.com/product-category/printed-page-v/
 event_image: printed_page_V.jpg 
 location: Anderson Academic Commons, University of Denver, Denver, Colorado
